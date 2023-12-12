@@ -13,6 +13,7 @@ The parts list so far as a list, so they can be ordered from aliexpress:
 - 0603 Led red
 - 1206 22uF
 - 0630 (6.6x6.6x3mm) 2.2uH
+- ETA3000 (SOT23-6)
 #### Deprecated
 - 0603 1nF
 
