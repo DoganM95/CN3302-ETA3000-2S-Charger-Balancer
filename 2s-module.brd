@@ -1550,6 +1550,66 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 </package>
 </packages>
 </library>
+<library name="PC817XI">
+<packages>
+<package name="SOIC254P975X460-4N">
+<description>Semiconductors and Actives, Optocouplers/Optoisolators, trans, Optoelectronics, smd</description>
+<wire x1="-3.5" y1="2.54" x2="3.5" y2="2.54" width="0.127" layer="51"/>
+<wire x1="3.5" y1="2.54" x2="3.5" y2="-2.54" width="0.127" layer="51"/>
+<wire x1="3.5" y1="-2.54" x2="-3.5" y2="-2.54" width="0.127" layer="51"/>
+<wire x1="-3.5" y1="-2.54" x2="-3.5" y2="2.54" width="0.127" layer="51"/>
+<wire x1="-3.5" y1="2.3035" x2="-3.5" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="2.54" x2="3.5" y2="2.54" width="0.127" layer="21"/>
+<wire x1="3.5" y1="2.54" x2="3.5" y2="2.3035" width="0.127" layer="21"/>
+<wire x1="3.5" y1="-2.3035" x2="3.5" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="3.5" y1="-2.54" x2="-3.5" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="-2.54" x2="-3.5" y2="-2.3035" width="0.127" layer="21"/>
+<wire x1="-3.75" y1="2.79" x2="3.75" y2="2.79" width="0.05" layer="39"/>
+<wire x1="3.75" y1="2.79" x2="3.75" y2="2.31" width="0.05" layer="39"/>
+<wire x1="3.75" y1="2.31" x2="5.61" y2="2.31" width="0.05" layer="39"/>
+<wire x1="5.61" y1="2.31" x2="5.61" y2="-2.31" width="0.05" layer="39"/>
+<wire x1="5.61" y1="-2.31" x2="3.75" y2="-2.31" width="0.05" layer="39"/>
+<wire x1="3.75" y1="-2.31" x2="3.75" y2="-2.79" width="0.05" layer="39"/>
+<wire x1="3.75" y1="-2.79" x2="-3.75" y2="-2.79" width="0.05" layer="39"/>
+<wire x1="-3.75" y1="-2.79" x2="-3.75" y2="-2.31" width="0.05" layer="39"/>
+<wire x1="-3.75" y1="-2.31" x2="-5.61" y2="-2.31" width="0.05" layer="39"/>
+<wire x1="-5.61" y1="-2.31" x2="-5.61" y2="2.31" width="0.05" layer="39"/>
+<wire x1="-5.61" y1="2.31" x2="-3.75" y2="2.31" width="0.05" layer="39"/>
+<wire x1="-3.75" y1="2.31" x2="-3.75" y2="2.79" width="0.05" layer="39"/>
+<circle x="-6.1" y="1.27" radius="0.15" width="0.3" layer="21"/>
+<circle x="-6.1" y="1.27" radius="0.15" width="0.3" layer="51"/>
+<text x="-3" y="4" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3" y="-5.5" size="1.27" layer="27">&gt;VALUE</text>
+<smd name="1" x="-4.29" y="1.27" dx="2.13" dy="1.57" layer="1" roundness="50"/>
+<smd name="2" x="-4.29" y="-1.27" dx="2.13" dy="1.57" layer="1" roundness="50"/>
+<smd name="3" x="4.29" y="-1.27" dx="2.13" dy="1.57" layer="1" roundness="50"/>
+<smd name="4" x="4.29" y="1.27" dx="2.13" dy="1.57" layer="1" roundness="50"/>
+</package>
+</packages>
+</library>
+<library name="BeagleBone_Blue_R3" urn="urn:adsk.eagle:library:5828899">
+<description>Generated from &lt;b&gt;BeagleBone_Blue.sch&lt;/b&gt;&lt;p&gt;
+by exp-lbrs.ulp</description>
+<packages>
+<package name="B1,27" urn="urn:adsk.eagle:footprint:5828981/1" library_version="49">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
+<wire x1="-0.635" y1="0" x2="0.635" y2="0" width="0.0024" layer="37"/>
+<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.0024" layer="37"/>
+<smd name="TP" x="0" y="0" dx="1.27" dy="1.27" layer="1" roundness="100" cream="no"/>
+<text x="-0.635" y="1.016" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-0.635" y="-0.762" size="0.0254" layer="27">&gt;VALUE</text>
+<text x="-0.635" y="-1.905" size="1" layer="37">&gt;TP_SIGNAL_NAME</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="B1,27" urn="urn:adsk.eagle:package:5829429/1" type="box" library_version="49">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
+<packageinstances>
+<packageinstance name="B1,27"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1761,9 +1821,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="22.225" y="27.305" size="1.27" layer="25"/>
 <attribute name="VALUE" x="22.225" y="24.765" size="1.27" layer="27"/>
 </element>
-<element name="U1" library="SparkFun-IC-Conversion" library_urn="urn:adsk.eagle:library:522" package="SOT23-6" package3d_urn="urn:adsk.eagle:package:38775/1" value="MCP4725" x="34.29" y="13.97" smashed="yes" rot="R270">
-<attribute name="NAME" x="34.29" y="12.065" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="PROD_ID" value="IC-08886" x="34.29" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="U1" library="SparkFun-IC-Conversion" library_urn="urn:adsk.eagle:library:522" package="SOT23-6" package3d_urn="urn:adsk.eagle:package:38775/1" value="MCP4725" x="34.29" y="13.97" smashed="yes" rot="R90">
+<attribute name="NAME" x="34.29" y="15.875" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="IC-08886" x="34.29" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="JP1" library="Connector" library_urn="urn:adsk.eagle:library:16378166" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="PINHD-1X3" x="33.02" y="10.16" smashed="yes">
 <attribute name="CATEGORY" value="Headers" x="33.02" y="10.16" size="1.778" layer="27" display="off"/>
@@ -1848,7 +1908,7 @@ design rules under a new name.</description>
 <attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1647434&amp;manufacturer=Sumida&amp;part_name=0630CDMCCDS-4R7MC&amp;search_term=0630" x="52.07" y="15.24" size="1.778" layer="27" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/0630CDMCCDS-4R7MC/Sumida/view-part/?ref=snap" x="52.07" y="15.24" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C4" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC1608X85" package3d_urn="urn:adsk.eagle:package:16290898/2" value="10nF" x="45.72" y="10.16" smashed="yes">
+<element name="C4" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC1608X85" package3d_urn="urn:adsk.eagle:package:16290898/2" value="10uF" x="45.72" y="10.16" smashed="yes">
 <attribute name="CATEGORY" value="Capacitor" x="45.72" y="10.16" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="45.72" y="10.16" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="45.72" y="10.16" size="1.778" layer="27" display="off"/>
@@ -1863,7 +1923,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="45.72" y="8.7259" size="1.27" layer="27" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="45.72" y="10.16" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C5" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC1608X85" package3d_urn="urn:adsk.eagle:package:16290898/2" value="10nF" x="45.72" y="5.08" smashed="yes">
+<element name="C5" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC1608X85" package3d_urn="urn:adsk.eagle:package:16290898/2" value="10uF" x="45.72" y="5.08" smashed="yes">
 <attribute name="CATEGORY" value="Capacitor" x="45.72" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="45.72" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="45.72" y="5.08" size="1.778" layer="27" display="off"/>
@@ -1877,6 +1937,29 @@ design rules under a new name.</description>
 <attribute name="TYPE" value="" x="45.72" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="45.72" y="3.6459" size="1.27" layer="27" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="45.72" y="5.08" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U2" library="PC817XI" package="SOIC254P975X460-4N" value="PC817XI" x="12.7" y="24.13" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="12.7" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/PC817XI/Sharp+Microelectronics/view-part/?ref=eda" x="12.7" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Optoisolator Transistor Output 5000Vrms 1 Channel 4-SMD " x="12.7" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Sharp Microelectronics" x="12.7" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="PC817XI" x="12.7" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="9.7" y="28.13" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="SMD-4 Sharp Microelectronics" x="12.7" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="12.7" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=494182&amp;manufacturer=Sharp Microelectronics&amp;part_name=PC817XI&amp;search_term=pc817 " x="12.7" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/PC817XI/Sharp+Microelectronics/view-part/?ref=snap" x="12.7" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="9.7" y="18.63" size="1.27" layer="27"/>
+</element>
+<element name="TP1" library="BeagleBone_Blue_R3" library_urn="urn:adsk.eagle:library:5828899" package="B1,27" package3d_urn="urn:adsk.eagle:package:5829429/1" value="TPB1,27" x="6.35" y="15.24" smashed="yes">
+<attribute name="NAME" x="5.715" y="16.256" size="1.27" layer="25" ratio="10"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="6.35" y="15.24" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="5.715" y="14.478" size="0.0254" layer="27"/>
+</element>
+<element name="TP2" library="BeagleBone_Blue_R3" library_urn="urn:adsk.eagle:library:5828899" package="B1,27" package3d_urn="urn:adsk.eagle:package:5829429/1" value="TPB1,27" x="6.35" y="10.16" smashed="yes">
+<attribute name="NAME" x="5.715" y="11.176" size="1.27" layer="25" ratio="10"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="6.35" y="10.16" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="5.715" y="9.398" size="0.0254" layer="27"/>
 </element>
 </elements>
 <signals>
@@ -1928,31 +2011,31 @@ design rules under a new name.</description>
 <contactref element="JP1" pad="3"/>
 <contactref element="C2" pad="2"/>
 <contactref element="C5" pad="2"/>
+<wire x1="32.17" y1="25.4" x2="34.7854" y2="31.75" width="0" layer="19" extent="1-1"/>
+<wire x1="28.79" y1="26.67" x2="32.17" y2="25.4" width="0" layer="19" extent="1-1"/>
 <wire x1="22.01" y1="26.67" x2="28.79" y2="26.67" width="0" layer="19" extent="1-1"/>
+<wire x1="37.0354" y1="19.05" x2="32.17" y2="25.4" width="0" layer="19" extent="1-1"/>
+<wire x1="32.9899" y1="13.97" x2="37.0354" y2="19.05" width="0" layer="19" extent="1-1"/>
+<wire x1="35.56" y1="10.16" x2="32.9899" y2="13.97" width="0" layer="19" extent="1-1"/>
 <wire x1="20.98" y1="17.78" x2="22.01" y2="26.67" width="0" layer="19" extent="1-1"/>
 <wire x1="22.1" y1="17.14" x2="20.98" y2="17.78" width="0" layer="19" extent="1-1"/>
 <wire x1="22.1" y1="12.96" x2="22.1" y2="17.14" width="0" layer="19" extent="1-1"/>
 <wire x1="14.58" y1="17.78" x2="20.98" y2="17.78" width="0" layer="19" extent="1-1"/>
 <wire x1="13.46" y1="17.14" x2="14.58" y2="17.78" width="0" layer="19" extent="1-1"/>
 <wire x1="13.46" y1="12.96" x2="13.46" y2="17.14" width="0" layer="19" extent="1-1"/>
-<wire x1="35.5901" y1="13.97" x2="22.1" y2="12.96" width="0" layer="19" extent="1-1"/>
-<wire x1="35.56" y1="10.16" x2="35.5901" y2="13.97" width="0" layer="19" extent="1-1"/>
-<wire x1="34.7854" y1="31.75" x2="13.46" y2="12.96" width="0" layer="19" extent="1-1"/>
-<wire x1="32.17" y1="25.4" x2="34.7854" y2="31.75" width="0" layer="19" extent="1-1"/>
-<wire x1="37.0354" y1="19.05" x2="32.17" y2="25.4" width="0" layer="19" extent="1-1"/>
-<wire x1="46.4946" y1="5.08" x2="37.0354" y2="19.05" width="0" layer="19" extent="1-1"/>
+<wire x1="46.4946" y1="5.08" x2="35.56" y2="10.16" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ISET">
 <contactref element="U1" pad="1"/>
 <contactref element="C1" pad="2"/>
 <contactref element="R4" pad="2"/>
-<wire x1="36.3346" y1="31.75" x2="35.5901" y2="13.02" width="0" layer="19" extent="1-1"/>
 <wire x1="33.87" y1="25.4" x2="36.3346" y2="31.75" width="0" layer="19" extent="1-1"/>
+<wire x1="32.9899" y1="14.92" x2="33.87" y2="25.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BIAS">
 <contactref element="U1" pad="3"/>
 <contactref element="C3" pad="2"/>
-<wire x1="46.4946" y1="25.4" x2="35.5901" y2="14.92" width="0" layer="19" extent="1-1"/>
+<wire x1="32.9899" y1="13.02" x2="46.4946" y2="25.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BATC">
 <contactref element="U1" pad="6"/>
@@ -1961,34 +2044,48 @@ design rules under a new name.</description>
 <contactref element="L1" pad="P$1"/>
 <contactref element="C4" pad="2"/>
 <contactref element="C5" pad="1"/>
-<wire x1="33.02" y1="10.16" x2="32.9899" y2="13.02" width="0" layer="19" extent="1-1"/>
-<wire x1="25.4" y1="14.72" x2="32.9899" y2="13.02" width="0" layer="19" extent="1-1"/>
-<wire x1="58.62" y1="18.54" x2="33.02" y2="10.16" width="0" layer="19" extent="1-1"/>
+<contactref element="U2" pad="2"/>
 <wire x1="46.4946" y1="10.16" x2="58.62" y2="18.54" width="0" layer="19" extent="1-1"/>
 <wire x1="44.9454" y1="5.08" x2="46.4946" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="35.5901" y1="14.92" x2="46.4946" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="33.02" y1="10.16" x2="35.5901" y2="14.92" width="0" layer="19" extent="1-1"/>
+<wire x1="25.4" y1="14.72" x2="33.02" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="8.41" y1="22.86" x2="25.4" y2="14.72" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BATP">
-<contactref element="U1" pad="5"/>
 <contactref element="JP1" pad="1"/>
 <contactref element="C2" pad="1"/>
 <contactref element="C4" pad="1"/>
-<wire x1="30.48" y1="10.16" x2="32.9899" y2="13.97" width="0" layer="19" extent="1-1"/>
-<wire x1="34.0846" y1="19.05" x2="30.48" y2="10.16" width="0" layer="19" extent="1-1"/>
-<wire x1="44.9454" y1="10.16" x2="34.0846" y2="19.05" width="0" layer="19" extent="1-1"/>
+<contactref element="U1" pad="5"/>
+<wire x1="35.5901" y1="13.97" x2="44.9454" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="34.0846" y1="19.05" x2="35.5901" y2="13.97" width="0" layer="19" extent="1-1"/>
+<wire x1="30.48" y1="10.16" x2="35.5901" y2="13.97" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SW">
 <contactref element="U1" pad="4"/>
 <contactref element="R3" pad="1"/>
 <contactref element="C3" pad="1"/>
 <contactref element="L1" pad="P$2"/>
-<wire x1="24.55" y1="3.81" x2="32.9899" y2="14.92" width="0" layer="19" extent="1-1"/>
-<wire x1="44.9454" y1="25.4" x2="24.55" y2="3.81" width="0" layer="19" extent="1-1"/>
 <wire x1="52.57" y1="18.54" x2="44.9454" y2="25.4" width="0" layer="19" extent="1-1"/>
+<wire x1="35.5901" y1="13.02" x2="44.9454" y2="25.4" width="0" layer="19" extent="1-1"/>
+<wire x1="24.55" y1="3.81" x2="35.5901" y2="13.02" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="R3" pad="2"/>
 <contactref element="LED1" pad="A"/>
+<contactref element="U2" pad="1"/>
 <wire x1="26.25" y1="3.81" x2="25.4" y2="13.22" width="0" layer="19" extent="1-1"/>
+<wire x1="8.41" y1="25.4" x2="26.25" y2="3.81" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="CT">
+<contactref element="U2" pad="4"/>
+<contactref element="TP1" pad="TP"/>
+<wire x1="16.99" y1="25.4" x2="6.35" y2="15.24" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="ET">
+<contactref element="U2" pad="3"/>
+<contactref element="TP2" pad="TP"/>
+<wire x1="16.99" y1="22.86" x2="6.35" y2="10.16" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
