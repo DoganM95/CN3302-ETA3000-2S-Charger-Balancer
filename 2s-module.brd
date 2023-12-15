@@ -171,13 +171,25 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="100" y2="0" width="0" layer="20"/>
-<wire x1="100" y1="0" x2="100" y2="80" width="0" layer="20"/>
-<wire x1="100" y1="80" x2="0" y2="80" width="0" layer="20"/>
-<wire x1="0" y1="80" x2="0" y2="0" width="0" layer="20"/>
-<text x="9.906" y="24.257" size="0.6096" layer="25">L1</text>
-<text x="16.002" y="12.7" size="0.6096" layer="25">C2</text>
-<text x="10.287" y="32.512" size="0.6096" layer="25">L2</text>
+<wire x1="0.254" y1="0" x2="19.609" y2="0" width="0" layer="20"/>
+<wire x1="19.609" y1="0" x2="19.609" y2="51.171" width="0" layer="20"/>
+<wire x1="19.609" y1="51.171" x2="0.254" y2="51.171" width="0" layer="20"/>
+<wire x1="0.254" y1="51.171" x2="0.254" y2="0" width="0" layer="20"/>
+<text x="9.906" y="12.446" size="0.6096" layer="25">L1</text>
+<text x="6.35" y="34.798" size="0.6096" layer="25">L2</text>
+<text x="7.366" y="34.798" size="0.6096" layer="25">/</text>
+<text x="1.905" y="50.292" size="0.6096" layer="25">B+</text>
+<text x="4.445" y="50.292" size="0.6096" layer="25">Bc</text>
+<text x="7.112" y="50.292" size="0.6096" layer="25">B-</text>
+<text x="9.779" y="49.403" size="0.6096" layer="25">IS_C
+3V3_O</text>
+<text x="13.208" y="49.403" size="0.6096" layer="25">IS_B
+3V3_IN</text>
+<text x="17.145" y="49.403" size="0.6096" layer="25">IS_B
+GPIO</text>
+<circle x="3.302" y="45.72" radius="0.127" width="0.1524" layer="25"/>
+<circle x="11.303" y="45.339" radius="0.179603125" width="0.1524" layer="25"/>
+<circle x="2.286" y="15.367" radius="0.127" width="0.1524" layer="25"/>
 </plain>
 <libraries>
 <library name="CQ-USB-C16PSMT01">
@@ -1967,399 +1979,394 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="J1" library="CQ-USB-C16PSMT01" package="SHENZHEN-CHUANGQIN-TECHNOLOGY_CQ-USB-C16PSMT01" value="CQ-USB-C16PSMT01" x="12.065" y="6.35" smashed="yes">
-<attribute name="AVAILABILITY" value="Not in stock" x="38.735" y="-2.54" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" C Type USB Type-C Female Plug 16 Pin Connector Power Charger Jack Port " x="38.735" y="-2.54" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Shenzen Chuangqin Technology" x="38.735" y="-2.54" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="CQ-USB-C16PSMT01" x="38.735" y="-2.54" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="11.186" y="2.253" size="0.6096" layer="25"/>
-<attribute name="PACKAGE" value="Package " x="38.735" y="-2.54" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="38.735" y="-2.54" size="1.778" layer="27" display="off"/>
+<element name="J1" library="CQ-USB-C16PSMT01" package="SHENZHEN-CHUANGQIN-TECHNOLOGY_CQ-USB-C16PSMT01" value="CQ-USB-C16PSMT01" x="9.906" y="6.223" smashed="yes">
+<attribute name="AVAILABILITY" value="Not in stock" x="36.576" y="-2.667" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" C Type USB Type-C Female Plug 16 Pin Connector Power Charger Jack Port " x="36.576" y="-2.667" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Shenzen Chuangqin Technology" x="36.576" y="-2.667" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="CQ-USB-C16PSMT01" x="36.576" y="-2.667" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="9.027" y="2.126" size="0.6096" layer="25"/>
+<attribute name="PACKAGE" value="Package " x="36.576" y="-2.667" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="36.576" y="-2.667" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="5.1k" x="8.509" y="9.271" smashed="yes" rot="R180">
-<attribute name="NAME" x="8.255" y="10.414" size="0.6096" layer="25" rot="R180"/>
+<element name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="5.1k" x="2.159" y="1.651" smashed="yes" rot="R180">
+<attribute name="NAME" x="1.905" y="2.794" size="0.6096" layer="25" rot="R180"/>
 </element>
-<element name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="5.1k" x="8.509" y="11.176" smashed="yes">
-<attribute name="NAME" x="7.112" y="11.811" size="0.6096" layer="25"/>
+<element name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="5.1k" x="2.159" y="3.556" smashed="yes">
+<attribute name="NAME" x="0.762" y="4.191" size="0.6096" layer="25"/>
 </element>
-<element name="U1" library="SparkFun-IC-Conversion" library_urn="urn:adsk.eagle:library:522" package="SOT23-6" package3d_urn="urn:adsk.eagle:package:38775/1" value="MCP4725" x="16.51" y="9.652" smashed="yes" rot="R90">
-<attribute name="NAME" x="16.51" y="9.398" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="IC-08886" x="16.51" y="9.652" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="U1" library="SparkFun-IC-Conversion" library_urn="urn:adsk.eagle:library:522" package="SOT23-6" package3d_urn="urn:adsk.eagle:package:38775/1" value="MCP4725" x="2.667" y="14.478" smashed="yes" rot="R90">
+<attribute name="NAME" x="2.667" y="14.224" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="IC-08886" x="2.667" y="14.478" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="JP1" library="Connector" library_urn="urn:adsk.eagle:library:16378166" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="PINHD-1X3" x="71.374" y="61.214" smashed="yes">
-<attribute name="CATEGORY" value="Headers" x="71.374" y="61.214" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="Header, Straight, 3 Position" x="71.374" y="61.214" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Generic" x="71.374" y="61.214" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="Generic" x="71.374" y="61.214" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="67.4878" y="63.0428" size="0.6096" layer="25" ratio="10"/>
-<attribute name="OPERATING_TEMPERATURE" value="Generic" x="71.374" y="61.214" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="Active" x="71.374" y="61.214" size="1.778" layer="27" display="off"/>
-<attribute name="PITCH" value="0.100&quot; (2.54mm)" x="71.374" y="61.214" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANCE" value="Generic" x="71.374" y="61.214" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="Generic" x="71.374" y="61.214" size="1.778" layer="27" display="off"/>
-<attribute name="SUB-CATEGORY" value="Headers, Male Pins" x="71.374" y="61.214" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="Board to Board or Cable, Unshrouded, Through Hole, Straight" x="71.374" y="61.214" size="1.778" layer="27" display="off"/>
+<element name="JP1" library="Connector" library_urn="urn:adsk.eagle:library:16378166" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="PINHD-1X3" x="4.953" y="48.514" smashed="yes">
+<attribute name="CATEGORY" value="Headers" x="4.953" y="48.514" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Header, Straight, 3 Position" x="4.953" y="48.514" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Generic" x="4.953" y="48.514" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="Generic" x="4.953" y="48.514" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMPERATURE" value="Generic" x="4.953" y="48.514" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="Active" x="4.953" y="48.514" size="1.778" layer="27" display="off"/>
+<attribute name="PITCH" value="0.100&quot; (2.54mm)" x="4.953" y="48.514" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANCE" value="Generic" x="4.953" y="48.514" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="Generic" x="4.953" y="48.514" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="Headers, Male Pins" x="4.953" y="48.514" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="Board to Board or Cable, Unshrouded, Through Hole, Straight" x="4.953" y="48.514" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="var" x="8.509" y="14.986" smashed="yes">
-<attribute name="NAME" x="7.112" y="15.621" size="0.6096" layer="25"/>
-<attribute name="VALUE" x="8.763" y="15.621" size="0.6096" layer="25"/>
+<element name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="var" x="2.159" y="11.176" smashed="yes">
+<attribute name="NAME" x="0.762" y="11.811" size="0.6096" layer="25"/>
+<attribute name="VALUE" x="2.413" y="11.811" size="0.6096" layer="25"/>
 </element>
-<element name="LED1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:6240561/1" value="red" x="12.446" y="15.367" smashed="yes" rot="R270">
-<attribute name="NAME" x="11.43" y="15.875" size="0.6096" layer="25"/>
+<element name="LED1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:6240561/1" value="red" x="17.78" y="10.922" smashed="yes" rot="R270">
+<attribute name="NAME" x="16.764" y="11.43" size="0.6096" layer="25"/>
 </element>
-<element name="C1" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC1608X85" package3d_urn="urn:adsk.eagle:package:16290898/2" value="10nF" x="12.446" y="12.446" smashed="yes">
-<attribute name="CATEGORY" value="Capacitor" x="12.446" y="12.446" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="12.446" y="12.446" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="12.446" y="12.446" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="10.668" y="12.2291" size="0.6096" layer="25" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="12.446" y="12.446" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="" x="12.446" y="12.446" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="12.446" y="12.446" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="" x="12.446" y="12.446" size="1.778" layer="27" display="off"/>
-<attribute name="SUB-CATEGORY" value="" x="12.446" y="12.446" size="1.778" layer="27" display="off"/>
-<attribute name="THERMALLOSS" value="" x="12.446" y="12.446" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="" x="12.446" y="12.446" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE_RATING" value="" x="12.446" y="12.446" size="1.778" layer="27" display="off"/>
+<element name="C1" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC1608X85" package3d_urn="urn:adsk.eagle:package:16290898/2" value="10nF" x="17.78" y="4.953" smashed="yes">
+<attribute name="CATEGORY" value="Capacitor" x="17.78" y="4.953" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="17.78" y="4.953" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="17.78" y="4.953" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="16.002" y="4.7361" size="0.6096" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="17.78" y="4.953" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="17.78" y="4.953" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="17.78" y="4.953" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="17.78" y="4.953" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="17.78" y="4.953" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="17.78" y="4.953" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="17.78" y="4.953" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_RATING" value="" x="17.78" y="4.953" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="25k" x="8.509" y="13.081" smashed="yes">
-<attribute name="NAME" x="7.112" y="13.716" size="0.6096" layer="25"/>
+<element name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="25k" x="2.159" y="5.461" smashed="yes">
+<attribute name="NAME" x="0.762" y="6.096" size="0.6096" layer="25"/>
 </element>
-<element name="C2" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC3216X135" package3d_urn="urn:adsk.eagle:package:16290893/2" value="22uF" x="16.51" y="12.954" smashed="yes" rot="R180">
-<attribute name="CATEGORY" value="Capacitor" x="16.51" y="12.954" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="" x="16.51" y="12.954" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="16.51" y="12.954" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="-48.641" y="-12.0167" size="0.6096" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="16.51" y="12.954" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PART_STATUS" value="" x="16.51" y="12.954" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="16.51" y="12.954" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SERIES" value="" x="16.51" y="12.954" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SUB-CATEGORY" value="" x="16.51" y="12.954" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="THERMALLOSS" value="" x="16.51" y="12.954" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TYPE" value="" x="16.51" y="12.954" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE_RATING" value="" x="16.51" y="12.954" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="C2" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC3216X135" package3d_urn="urn:adsk.eagle:package:16290893/2" value="22uF" x="17.399" y="14.605" smashed="yes" rot="R180">
+<attribute name="CATEGORY" value="Capacitor" x="17.399" y="14.605" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="" x="17.399" y="14.605" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="17.399" y="14.605" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="17.526" y="14.9073" size="0.6096" layer="25" rot="R180" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="17.399" y="14.605" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PART_STATUS" value="" x="17.399" y="14.605" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="17.399" y="14.605" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SERIES" value="" x="17.399" y="14.605" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="17.399" y="14.605" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="THERMALLOSS" value="" x="17.399" y="14.605" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TYPE" value="" x="17.399" y="14.605" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE_RATING" value="" x="17.399" y="14.605" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C3" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC1608X85" package3d_urn="urn:adsk.eagle:package:16290898/2" value="10nF" x="12.446" y="14.097" smashed="yes">
-<attribute name="CATEGORY" value="Capacitor" x="12.446" y="14.097" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="12.446" y="14.097" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="12.446" y="14.097" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="10.668" y="13.8801" size="0.6096" layer="25" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="12.446" y="14.097" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="" x="12.446" y="14.097" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="12.446" y="14.097" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="" x="12.446" y="14.097" size="1.778" layer="27" display="off"/>
-<attribute name="SUB-CATEGORY" value="" x="12.446" y="14.097" size="1.778" layer="27" display="off"/>
-<attribute name="THERMALLOSS" value="" x="12.446" y="14.097" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="" x="12.446" y="14.097" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE_RATING" value="" x="12.446" y="14.097" size="1.778" layer="27" display="off"/>
+<element name="C3" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC1608X85" package3d_urn="urn:adsk.eagle:package:16290898/2" value="10nF" x="17.78" y="6.604" smashed="yes">
+<attribute name="CATEGORY" value="Capacitor" x="17.78" y="6.604" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="17.78" y="6.604" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="17.78" y="6.604" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="16.002" y="6.3871" size="0.6096" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="17.78" y="6.604" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="17.78" y="6.604" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="17.78" y="6.604" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="17.78" y="6.604" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="17.78" y="6.604" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="17.78" y="6.604" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="17.78" y="6.604" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_RATING" value="" x="17.78" y="6.604" size="1.778" layer="27" display="off"/>
 </element>
-<element name="L1" library="0630CDMCCDS-4R7MC" package="0630CDMCCDS-4R7MC" value="" x="7.239" y="21.717" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="7.239" y="21.717" size="1.778" layer="27" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/0630CDMCCDS-4R7MC/Sumida/view-part/?ref=eda" x="7.239" y="21.717" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" 4.7 µH Shielded Molded Inductor 6.3 A 33mOhm Max Nonstandard " x="7.239" y="21.717" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Sumida" x="7.239" y="21.717" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="0630CDMCCDS-4R7MC" x="7.239" y="21.717" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE" value="Nonstandard Sumida" x="7.239" y="21.717" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="7.239" y="21.717" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1647434&amp;manufacturer=Sumida&amp;part_name=0630CDMCCDS-4R7MC&amp;search_term=0630" x="7.239" y="21.717" size="1.778" layer="27" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/0630CDMCCDS-4R7MC/Sumida/view-part/?ref=snap" x="7.239" y="21.717" size="1.778" layer="27" display="off"/>
+<element name="L1" library="0630CDMCCDS-4R7MC" package="0630CDMCCDS-4R7MC" value="" x="6.604" y="9.525" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="6.604" y="9.525" size="1.778" layer="27" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/0630CDMCCDS-4R7MC/Sumida/view-part/?ref=eda" x="6.604" y="9.525" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" 4.7 µH Shielded Molded Inductor 6.3 A 33mOhm Max Nonstandard " x="6.604" y="9.525" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Sumida" x="6.604" y="9.525" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="0630CDMCCDS-4R7MC" x="6.604" y="9.525" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="Nonstandard Sumida" x="6.604" y="9.525" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="6.604" y="9.525" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1647434&amp;manufacturer=Sumida&amp;part_name=0630CDMCCDS-4R7MC&amp;search_term=0630" x="6.604" y="9.525" size="1.778" layer="27" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/0630CDMCCDS-4R7MC/Sumida/view-part/?ref=snap" x="6.604" y="9.525" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C4" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC1608X85" package3d_urn="urn:adsk.eagle:package:16290898/2" value="10uF" x="12.446" y="10.795" smashed="yes">
-<attribute name="CATEGORY" value="Capacitor" x="12.446" y="10.795" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="12.446" y="10.795" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="12.446" y="10.795" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="10.668" y="10.5781" size="0.6096" layer="25" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="12.446" y="10.795" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="" x="12.446" y="10.795" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="12.446" y="10.795" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="" x="12.446" y="10.795" size="1.778" layer="27" display="off"/>
-<attribute name="SUB-CATEGORY" value="" x="12.446" y="10.795" size="1.778" layer="27" display="off"/>
-<attribute name="THERMALLOSS" value="" x="12.446" y="10.795" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="" x="12.446" y="10.795" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE_RATING" value="" x="12.446" y="10.795" size="1.778" layer="27" display="off"/>
+<element name="C4" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC1608X85" package3d_urn="urn:adsk.eagle:package:16290898/2" value="10uF" x="17.78" y="3.302" smashed="yes">
+<attribute name="CATEGORY" value="Capacitor" x="17.78" y="3.302" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="17.78" y="3.302" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="17.78" y="3.302" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="16.002" y="3.0851" size="0.6096" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="17.78" y="3.302" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="17.78" y="3.302" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="17.78" y="3.302" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="17.78" y="3.302" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="17.78" y="3.302" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="17.78" y="3.302" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="17.78" y="3.302" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_RATING" value="" x="17.78" y="3.302" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C5" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC1608X85" package3d_urn="urn:adsk.eagle:package:16290898/2" value="10uF" x="12.446" y="9.144" smashed="yes" rot="R180">
-<attribute name="CATEGORY" value="Capacitor" x="12.446" y="9.144" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="" x="12.446" y="9.144" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="12.446" y="9.144" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="10.668" y="9.4879" size="0.6096" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="12.446" y="9.144" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PART_STATUS" value="" x="12.446" y="9.144" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="12.446" y="9.144" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SERIES" value="" x="12.446" y="9.144" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SUB-CATEGORY" value="" x="12.446" y="9.144" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="THERMALLOSS" value="" x="12.446" y="9.144" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TYPE" value="" x="12.446" y="9.144" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE_RATING" value="" x="12.446" y="9.144" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="C5" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC1608X85" package3d_urn="urn:adsk.eagle:package:16290898/2" value="10uF" x="17.78" y="1.651" smashed="yes" rot="R180">
+<attribute name="CATEGORY" value="Capacitor" x="17.78" y="1.651" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="" x="17.78" y="1.651" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="17.78" y="1.651" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="16.002" y="1.9949" size="0.6096" layer="25" rot="R180" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="17.78" y="1.651" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PART_STATUS" value="" x="17.78" y="1.651" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="17.78" y="1.651" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SERIES" value="" x="17.78" y="1.651" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="17.78" y="1.651" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="THERMALLOSS" value="" x="17.78" y="1.651" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TYPE" value="" x="17.78" y="1.651" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE_RATING" value="" x="17.78" y="1.651" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="U2" library="PC817XI" package="SOIC254P975X460-4N" value="PC817XI" x="8.382" y="72.009" smashed="yes" rot="R90">
-<attribute name="AVAILABILITY" value="In Stock" x="8.382" y="72.009" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/PC817XI/Sharp+Microelectronics/view-part/?ref=eda" x="8.382" y="72.009" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value=" Optoisolator Transistor Output 5000Vrms 1 Channel 4-SMD " x="8.382" y="72.009" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="Sharp Microelectronics" x="8.382" y="72.009" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MP" value="PC817XI" x="8.382" y="72.009" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="7.811" y="71.168" size="0.6096" layer="25" rot="R90"/>
-<attribute name="PACKAGE" value="SMD-4 Sharp Microelectronics" x="8.382" y="72.009" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="None" x="8.382" y="72.009" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=494182&amp;manufacturer=Sharp Microelectronics&amp;part_name=PC817XI&amp;search_term=pc817 " x="8.382" y="72.009" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/PC817XI/Sharp+Microelectronics/view-part/?ref=snap" x="8.382" y="72.009" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="U2" library="PC817XI" package="SOIC254P975X460-4N" value="PC817XI" x="13.843" y="43.688" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="13.843" y="43.688" size="1.778" layer="27" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/PC817XI/Sharp+Microelectronics/view-part/?ref=eda" x="13.843" y="43.688" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Optoisolator Transistor Output 5000Vrms 1 Channel 4-SMD " x="13.843" y="43.688" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Sharp Microelectronics" x="13.843" y="43.688" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="PC817XI" x="13.843" y="43.688" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="13.002" y="44.259" size="0.6096" layer="25"/>
+<attribute name="PACKAGE" value="SMD-4 Sharp Microelectronics" x="13.843" y="43.688" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="13.843" y="43.688" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=494182&amp;manufacturer=Sharp Microelectronics&amp;part_name=PC817XI&amp;search_term=pc817 " x="13.843" y="43.688" size="1.778" layer="27" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/PC817XI/Sharp+Microelectronics/view-part/?ref=snap" x="13.843" y="43.688" size="1.778" layer="27" display="off"/>
 </element>
-<element name="TP1" library="BeagleBone_Blue_R3" library_urn="urn:adsk.eagle:library:5828899" package="B1,27" package3d_urn="urn:adsk.eagle:package:5829429/1" value="TPB1,27" x="76.073" y="54.483" smashed="yes">
-<attribute name="NAME" x="75.438" y="55.499" size="0.6096" layer="25" ratio="10"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="76.073" y="54.483" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="75.438" y="53.721" size="0.0254" layer="27"/>
+<element name="TP1" library="BeagleBone_Blue_R3" library_urn="urn:adsk.eagle:library:5828899" package="B1,27" package3d_urn="urn:adsk.eagle:package:5829429/1" value="TPB1,27" x="14.605" y="48.387" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="14.605" y="48.387" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="13.97" y="47.625" size="0.0254" layer="27"/>
 </element>
-<element name="TP2" library="BeagleBone_Blue_R3" library_urn="urn:adsk.eagle:library:5828899" package="B1,27" package3d_urn="urn:adsk.eagle:package:5829429/1" value="TPB1,27" x="72.771" y="55.118" smashed="yes">
-<attribute name="NAME" x="72.136" y="56.134" size="0.6096" layer="25" ratio="10"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="72.771" y="55.118" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="72.136" y="54.356" size="0.0254" layer="27"/>
+<element name="TP2" library="BeagleBone_Blue_R3" library_urn="urn:adsk.eagle:library:5828899" package="B1,27" package3d_urn="urn:adsk.eagle:package:5829429/1" value="TPB1,27" x="18.161" y="48.387" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="18.161" y="48.387" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="17.526" y="47.625" size="0.0254" layer="27"/>
 </element>
-<element name="U3" library="LM393DR" package="SOIC127P599X175-8N" value="LM393DR" x="16.764" y="17.907" smashed="yes" rot="R90">
-<attribute name="AVAILABILITY" value="In Stock" x="16.764" y="17.907" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/LM393DR/Texas+Instruments/view-part/?ref=eda" x="16.764" y="17.907" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value=" Dual differential comparator, commercial grade " x="16.764" y="17.907" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="Texas Instruments" x="16.764" y="17.907" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MP" value="LM393DR" x="16.764" y="17.907" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="17.291" y="18.157" size="0.6096" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="SOIC-8 Texas Instruments" x="16.764" y="17.907" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="None" x="16.764" y="17.907" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=6437&amp;manufacturer=Texas Instruments&amp;part_name=LM393DR&amp;search_term=lm393dr" x="16.764" y="17.907" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/LM393DR/Texas+Instruments/view-part/?ref=snap" x="16.764" y="17.907" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="U3" library="LM393DR" package="SOIC127P599X175-8N" value="LM393DR" x="4.445" y="43.688" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="4.445" y="43.688" size="1.778" layer="27" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/LM393DR/Texas+Instruments/view-part/?ref=eda" x="4.445" y="43.688" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Dual differential comparator, commercial grade " x="4.445" y="43.688" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Texas Instruments" x="4.445" y="43.688" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="LM393DR" x="4.445" y="43.688" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="4.695" y="43.161" size="0.6096" layer="25" rot="R90"/>
+<attribute name="PACKAGE" value="SOIC-8 Texas Instruments" x="4.445" y="43.688" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="4.445" y="43.688" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=6437&amp;manufacturer=Texas Instruments&amp;part_name=LM393DR&amp;search_term=lm393dr" x="4.445" y="43.688" size="1.778" layer="27" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/LM393DR/Texas+Instruments/view-part/?ref=snap" x="4.445" y="43.688" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C6" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC3216X135" package3d_urn="urn:adsk.eagle:package:16290893/2" value="22uF" x="38.1" y="48.133" smashed="yes">
-<attribute name="CATEGORY" value="Capacitor" x="38.1" y="48.133" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="38.1" y="48.133" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="38.1" y="48.133" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="38.1" y="47.8307" size="0.6096" layer="25" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="38.1" y="48.133" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="" x="38.1" y="48.133" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="38.1" y="48.133" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="" x="38.1" y="48.133" size="1.778" layer="27" display="off"/>
-<attribute name="SUB-CATEGORY" value="" x="38.1" y="48.133" size="1.778" layer="27" display="off"/>
-<attribute name="THERMALLOSS" value="" x="38.1" y="48.133" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="" x="38.1" y="48.133" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE_RATING" value="" x="38.1" y="48.133" size="1.778" layer="27" display="off"/>
+<element name="C6" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC3216X135" package3d_urn="urn:adsk.eagle:package:16290893/2" value="22uF" x="8.255" y="18.034" smashed="yes">
+<attribute name="CATEGORY" value="Capacitor" x="8.255" y="18.034" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="8.255" y="18.034" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="8.255" y="18.034" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="8.255" y="17.7317" size="0.6096" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="8.255" y="18.034" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="8.255" y="18.034" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="8.255" y="18.034" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="8.255" y="18.034" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="8.255" y="18.034" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="8.255" y="18.034" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="8.255" y="18.034" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_RATING" value="" x="8.255" y="18.034" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C7" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC3216X135" package3d_urn="urn:adsk.eagle:package:16290893/2" value="22uF" x="38.1" y="50.546" smashed="yes">
-<attribute name="CATEGORY" value="Capacitor" x="38.1" y="50.546" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="38.1" y="50.546" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="38.1" y="50.546" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="38.1" y="50.2437" size="0.6096" layer="25" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="38.1" y="50.546" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="" x="38.1" y="50.546" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="38.1" y="50.546" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="" x="38.1" y="50.546" size="1.778" layer="27" display="off"/>
-<attribute name="SUB-CATEGORY" value="" x="38.1" y="50.546" size="1.778" layer="27" display="off"/>
-<attribute name="THERMALLOSS" value="" x="38.1" y="50.546" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="" x="38.1" y="50.546" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE_RATING" value="" x="38.1" y="50.546" size="1.778" layer="27" display="off"/>
+<element name="C7" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC3216X135" package3d_urn="urn:adsk.eagle:package:16290893/2" value="22uF" x="8.255" y="20.447" smashed="yes">
+<attribute name="CATEGORY" value="Capacitor" x="8.255" y="20.447" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="8.255" y="20.447" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="8.255" y="20.447" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="8.255" y="20.1447" size="0.6096" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="8.255" y="20.447" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="8.255" y="20.447" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="8.255" y="20.447" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="8.255" y="20.447" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="8.255" y="20.447" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="8.255" y="20.447" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="8.255" y="20.447" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_RATING" value="" x="8.255" y="20.447" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C8" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC3216X135" package3d_urn="urn:adsk.eagle:package:16290893/2" value="22uF" x="38.1" y="52.959" smashed="yes">
-<attribute name="CATEGORY" value="Capacitor" x="38.1" y="52.959" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="38.1" y="52.959" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="38.1" y="52.959" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="38.1" y="52.6567" size="0.6096" layer="25" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="38.1" y="52.959" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="" x="38.1" y="52.959" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="38.1" y="52.959" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="" x="38.1" y="52.959" size="1.778" layer="27" display="off"/>
-<attribute name="SUB-CATEGORY" value="" x="38.1" y="52.959" size="1.778" layer="27" display="off"/>
-<attribute name="THERMALLOSS" value="" x="38.1" y="52.959" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="" x="38.1" y="52.959" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE_RATING" value="" x="38.1" y="52.959" size="1.778" layer="27" display="off"/>
+<element name="C8" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC3216X135" package3d_urn="urn:adsk.eagle:package:16290893/2" value="22uF" x="8.255" y="22.86" smashed="yes">
+<attribute name="CATEGORY" value="Capacitor" x="8.255" y="22.86" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="8.255" y="22.86" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="8.255" y="22.86" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="8.255" y="22.5577" size="0.6096" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="8.255" y="22.86" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="8.255" y="22.86" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="8.255" y="22.86" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="8.255" y="22.86" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="8.255" y="22.86" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="8.255" y="22.86" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="8.255" y="22.86" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_RATING" value="" x="8.255" y="22.86" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C9" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC3216X135" package3d_urn="urn:adsk.eagle:package:16290893/2" value="22uF" x="38.1" y="55.372" smashed="yes">
-<attribute name="CATEGORY" value="Capacitor" x="38.1" y="55.372" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="38.1" y="55.372" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="38.1" y="55.372" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="38.1" y="55.0697" size="0.6096" layer="25" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="38.1" y="55.372" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="" x="38.1" y="55.372" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="38.1" y="55.372" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="" x="38.1" y="55.372" size="1.778" layer="27" display="off"/>
-<attribute name="SUB-CATEGORY" value="" x="38.1" y="55.372" size="1.778" layer="27" display="off"/>
-<attribute name="THERMALLOSS" value="" x="38.1" y="55.372" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="" x="38.1" y="55.372" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE_RATING" value="" x="38.1" y="55.372" size="1.778" layer="27" display="off"/>
+<element name="C9" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC3216X135" package3d_urn="urn:adsk.eagle:package:16290893/2" value="22uF" x="8.255" y="25.273" smashed="yes">
+<attribute name="CATEGORY" value="Capacitor" x="8.255" y="25.273" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="8.255" y="25.273" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="8.255" y="25.273" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="8.255" y="24.9707" size="0.6096" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="8.255" y="25.273" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="8.255" y="25.273" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="8.255" y="25.273" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="8.255" y="25.273" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="8.255" y="25.273" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="8.255" y="25.273" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="8.255" y="25.273" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_RATING" value="" x="8.255" y="25.273" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R5" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" package="RESC6332X71" package3d_urn="urn:adsk.eagle:package:16378557/3" value="0.015 Ohms" x="43.18" y="59.69" smashed="yes">
-<attribute name="CATEGORY" value="Resistor" x="43.18" y="59.69" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="43.18" y="59.69" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="43.18" y="59.69" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="43.18" y="62.3241" size="0.6096" layer="25" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="43.18" y="59.69" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="" x="43.18" y="59.69" size="1.778" layer="27" display="off"/>
-<attribute name="RATING" value="" x="43.18" y="59.69" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="43.18" y="59.69" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="" x="43.18" y="59.69" size="1.778" layer="27" display="off"/>
-<attribute name="SUB-CATEGORY" value="Fixed" x="43.18" y="59.69" size="1.778" layer="27" display="off"/>
-<attribute name="THERMALLOSS" value="" x="43.18" y="59.69" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="" x="43.18" y="59.69" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="" x="43.18" y="59.69" size="1.778" layer="27" display="off"/>
+<element name="R5" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" package="RESC6332X71" package3d_urn="urn:adsk.eagle:package:16378557/3" value="0.015 Ohms" x="17.272" y="33.401" smashed="yes" rot="R90">
+<attribute name="CATEGORY" value="Resistor" x="17.272" y="33.401" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="" x="17.272" y="33.401" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="17.272" y="33.401" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="17.5589" y="33.401" size="0.6096" layer="25" rot="R180" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="17.272" y="33.401" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PART_STATUS" value="" x="17.272" y="33.401" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RATING" value="" x="17.272" y="33.401" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="17.272" y="33.401" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SERIES" value="" x="17.272" y="33.401" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SUB-CATEGORY" value="Fixed" x="17.272" y="33.401" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="THERMALLOSS" value="" x="17.272" y="33.401" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TOLERANCE" value="" x="17.272" y="33.401" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TYPE" value="" x="17.272" y="33.401" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="U4" library="Microchip - MIC5219-3.3YM5-TR" package="MICROCHIP_MIC5219-3_3YM5-TR_0" value="MICROCHIP_MIC5219-3_3YM5-TRMICROCHIP_MIC5219-3_3YM5-TR_0_0" x="15.875" y="50.673" smashed="yes">
-<attribute name="ACCURACY_PERCENTAGE" value="1%" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="AMBIENT_TEMPERATURE_RANGE_HIGH" value="+125°C" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="AMBIENT_TEMPERATURE_RANGE_LOW" value="-40°C" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="AUTOMOTIVE" value="No" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET" value="http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="DEVICE_CLASS_L1" value="Integrated Circuits (ICs)" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="DEVICE_CLASS_L2" value="Power Management ICs" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="DEVICE_CLASS_L3" value="Voltage Regulators - Linear" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="IC REG LINEAR 3.3V 500MA SOT23-5" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="576-1281-1-ND" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="DROPOUT_VOLTAGE" value="350mV" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="FOOTPRINT_PARAMETERS_1" value="{&quot;fp_type&quot;:&quot;SOT23&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;default&quot;:&quot;5&quot;,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;N&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:900000,&quot;max&quot;:1450000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:0,&quot;max&quot;:150000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:1100000,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:900000,&quot;max&quot;:1300000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:2900000,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:2800000,&quot;max&quot;:3000000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:2800000,&quot;long name&quot;:&quot;Width /w leads&quot;,&quot;min&quot;:2600000,&quot;max&quot;:3000000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:1600000,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:1500000,&quot;max&quot;:1700000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:250000,&quot;max&quot;:500000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:90000,&quot;max&quot;:200000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:450000,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:350000,&quot;max&quot;:550000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:950000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead angle&quot;,&quot;min&quot;:0,&quot;max&quot;:3000000,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:550000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:450000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:50000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:500000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;A&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="FOOTPRINT_PARAMETERS_2" value="{&quot;fp_type&quot;:&quot;SOT23&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;default&quot;:&quot;5&quot;,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;N&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:900000,&quot;max&quot;:1450000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:0,&quot;max&quot;:150000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:1100000,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:900000,&quot;max&quot;:1300000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:2900000,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:2800000,&quot;max&quot;:3000000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:2800000,&quot;long name&quot;:&quot;Width /w leads&quot;,&quot;min&quot;:2600000,&quot;max&quot;:3000000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:1600000,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:1500000,&quot;max&quot;:1700000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:250000,&quot;max&quot;:500000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:90000,&quot;max&quot;:200000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:450000,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:350000,&quot;max&quot;:550000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:950000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead angle&quot;,&quot;min&quot;:0,&quot;max&quot;:3000000,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:350000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:350000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:30000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:250000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;B&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="FOOTPRINT_PARAMETERS_3" value="{&quot;fp_type&quot;:&quot;SOT23&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;default&quot;:&quot;5&quot;,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;N&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:900000,&quot;max&quot;:1450000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:0,&quot;max&quot;:150000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:1100000,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:900000,&quot;max&quot;:1300000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:2900000,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:2800000,&quot;max&quot;:3000000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:2800000,&quot;long name&quot;:&quot;Width /w leads&quot;,&quot;min&quot;:2600000,&quot;max&quot;:3000000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:1600000,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:1500000,&quot;max&quot;:1700000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:250000,&quot;max&quot;:500000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:90000,&quot;max&quot;:200000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:450000,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:350000,&quot;max&quot;:550000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:950000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead angle&quot;,&quot;min&quot;:0,&quot;max&quot;:3000000,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:150000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:250000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:10000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:100000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;C&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Recommended_Land_Pattern" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_1" value="IPC_A" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_2" value="IPC_B" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_3" value="IPC_C" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.45mm" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="LEAD_FREE" value="yes" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="MAX_JUNCTION_TEMP" value="+125°C" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="MAX_SUPPLY_VOLTAGE" value="12V" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Microchip" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT" value="SOT23-5LD-PL-1" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_COMPONENT_ID" value="354a25971f54c3a5" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_DATE" value="0" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="MIN_SUPPLY_VOLTAGE" value="2.5V" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="998-MIC5219-3.3YM5TR" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="MIC5219-3.3YM5-TR" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="16.982" y="50.391" size="0.6096" layer="25"/>
-<attribute name="NOMINAL_SUPPLY_CURRENT" value="0.1-12000uA" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="NUMBER_OF_OUTPUTS" value="1" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="OUTPUT_CURRENT" value="500mA" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="OUTPUT_TYPE" value="Fixed" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="OUTPUT_VOLTAGE" value="3.3V" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE" value="SOT-23-5" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="PREFIX" value="U" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS" value="Yes" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="STANDOFF_HEIGHT" value="0mm" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+125°C" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-40°C" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
-<attribute name="VERIFICATION_VERSION" value="0.0.0.3" x="15.875" y="50.673" size="1.778" layer="27" display="off"/>
+<element name="U4" library="Microchip - MIC5219-3.3YM5-TR" package="MICROCHIP_MIC5219-3_3YM5-TR_0" value="MICROCHIP_MIC5219-3_3YM5-TRMICROCHIP_MIC5219-3_3YM5-TR_0_0" x="15.494" y="23.622" smashed="yes">
+<attribute name="ACCURACY_PERCENTAGE" value="1%" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="AMBIENT_TEMPERATURE_RANGE_HIGH" value="+125°C" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="AMBIENT_TEMPERATURE_RANGE_LOW" value="-40°C" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="AUTOMOTIVE" value="No" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET" value="http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="DEVICE_CLASS_L1" value="Integrated Circuits (ICs)" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="DEVICE_CLASS_L2" value="Power Management ICs" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="DEVICE_CLASS_L3" value="Voltage Regulators - Linear" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_DESCRIPTION" value="IC REG LINEAR 3.3V 500MA SOT23-5" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="576-1281-1-ND" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="DROPOUT_VOLTAGE" value="350mV" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="FOOTPRINT_PARAMETERS_1" value="{&quot;fp_type&quot;:&quot;SOT23&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;default&quot;:&quot;5&quot;,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;N&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:900000,&quot;max&quot;:1450000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:0,&quot;max&quot;:150000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:1100000,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:900000,&quot;max&quot;:1300000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:2900000,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:2800000,&quot;max&quot;:3000000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:2800000,&quot;long name&quot;:&quot;Width /w leads&quot;,&quot;min&quot;:2600000,&quot;max&quot;:3000000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:1600000,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:1500000,&quot;max&quot;:1700000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:250000,&quot;max&quot;:500000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:90000,&quot;max&quot;:200000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:450000,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:350000,&quot;max&quot;:550000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:950000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead angle&quot;,&quot;min&quot;:0,&quot;max&quot;:3000000,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:550000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:450000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:50000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:500000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;A&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="FOOTPRINT_PARAMETERS_2" value="{&quot;fp_type&quot;:&quot;SOT23&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;default&quot;:&quot;5&quot;,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;N&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:900000,&quot;max&quot;:1450000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:0,&quot;max&quot;:150000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:1100000,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:900000,&quot;max&quot;:1300000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:2900000,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:2800000,&quot;max&quot;:3000000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:2800000,&quot;long name&quot;:&quot;Width /w leads&quot;,&quot;min&quot;:2600000,&quot;max&quot;:3000000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:1600000,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:1500000,&quot;max&quot;:1700000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:250000,&quot;max&quot;:500000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:90000,&quot;max&quot;:200000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:450000,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:350000,&quot;max&quot;:550000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:950000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead angle&quot;,&quot;min&quot;:0,&quot;max&quot;:3000000,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:350000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:350000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:30000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:250000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;B&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="FOOTPRINT_PARAMETERS_3" value="{&quot;fp_type&quot;:&quot;SOT23&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;default&quot;:&quot;5&quot;,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;N&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:900000,&quot;max&quot;:1450000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:0,&quot;max&quot;:150000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:1100000,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:900000,&quot;max&quot;:1300000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:2900000,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:2800000,&quot;max&quot;:3000000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:2800000,&quot;long name&quot;:&quot;Width /w leads&quot;,&quot;min&quot;:2600000,&quot;max&quot;:3000000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:1600000,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:1500000,&quot;max&quot;:1700000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:250000,&quot;max&quot;:500000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:90000,&quot;max&quot;:200000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:450000,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:350000,&quot;max&quot;:550000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:950000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead angle&quot;,&quot;min&quot;:0,&quot;max&quot;:3000000,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:150000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:250000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:10000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:100000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;C&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Recommended_Land_Pattern" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_1" value="IPC_A" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_2" value="IPC_B" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_3" value="IPC_C" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.45mm" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="LEAD_FREE" value="yes" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="MAX_JUNCTION_TEMP" value="+125°C" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="MAX_SUPPLY_VOLTAGE" value="12V" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Microchip" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT" value="SOT23-5LD-PL-1" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT_COMPONENT_ID" value="354a25971f54c3a5" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT_DATE" value="0" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="MIN_SUPPLY_VOLTAGE" value="2.5V" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="998-MIC5219-3.3YM5TR" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MIC5219-3.3YM5-TR" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="16.474" y="23.34" size="0.6096" layer="25"/>
+<attribute name="NOMINAL_SUPPLY_CURRENT" value="0.1-12000uA" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="NUMBER_OF_OUTPUTS" value="1" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="OUTPUT_CURRENT" value="500mA" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="OUTPUT_TYPE" value="Fixed" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="OUTPUT_VOLTAGE" value="3.3V" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="SOT-23-5" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="PREFIX" value="U" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS" value="Yes" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="STANDOFF_HEIGHT" value="0mm" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="TEMPERATURE_RANGE_HIGH" value="+125°C" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="TEMPERATURE_RANGE_LOW" value="-40°C" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
+<attribute name="VERIFICATION_VERSION" value="0.0.0.3" x="15.494" y="23.622" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C10" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC1608X85" package3d_urn="urn:adsk.eagle:package:16290898/2" value="10nF" x="44.196" y="49.657" smashed="yes">
-<attribute name="CATEGORY" value="Capacitor" x="45.466" y="49.657" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="45.466" y="49.657" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="45.466" y="49.657" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="44.196" y="51.0911" size="0.6096" layer="25" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="45.466" y="49.657" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="" x="45.466" y="49.657" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="45.466" y="49.657" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="" x="45.466" y="49.657" size="1.778" layer="27" display="off"/>
-<attribute name="SUB-CATEGORY" value="" x="45.466" y="49.657" size="1.778" layer="27" display="off"/>
-<attribute name="THERMALLOSS" value="" x="45.466" y="49.657" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="" x="45.466" y="49.657" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE_RATING" value="" x="45.466" y="49.657" size="1.778" layer="27" display="off"/>
+<element name="C10" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC1608X85" package3d_urn="urn:adsk.eagle:package:16290898/2" value="10nF" x="17.78" y="8.255" smashed="yes">
+<attribute name="CATEGORY" value="Capacitor" x="19.05" y="8.255" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="19.05" y="8.255" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="19.05" y="8.255" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="15.748" y="7.9111" size="0.6096" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="19.05" y="8.255" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="19.05" y="8.255" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="19.05" y="8.255" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="19.05" y="8.255" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="19.05" y="8.255" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="19.05" y="8.255" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="19.05" y="8.255" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_RATING" value="" x="19.05" y="8.255" size="1.778" layer="27" display="off"/>
 </element>
-<element name="TP3" library="BeagleBone_Blue_R3" library_urn="urn:adsk.eagle:library:5828899" package="B1,27" package3d_urn="urn:adsk.eagle:package:5829429/1" value="TPB1,27" x="33.02" y="64.77" smashed="yes">
-<attribute name="NAME" x="32.385" y="65.786" size="0.6096" layer="25" ratio="10"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="32.385" y="62.865" size="1" layer="37"/>
-<attribute name="VALUE" x="32.385" y="64.008" size="0.0254" layer="27"/>
+<element name="TP3" library="BeagleBone_Blue_R3" library_urn="urn:adsk.eagle:library:5828899" package="B1,27" package3d_urn="urn:adsk.eagle:package:5829429/1" value="TPB1,27" x="11.049" y="48.387" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="10.414" y="46.482" size="1" layer="37"/>
+<attribute name="VALUE" x="10.668" y="47.244" size="0.0254" layer="27"/>
 </element>
-<element name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k" x="23.622" y="47.879" smashed="yes">
-<attribute name="NAME" x="22.987" y="48.514" size="0.6096" layer="25"/>
+<element name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k" x="2.159" y="9.271" smashed="yes">
+<attribute name="NAME" x="0.762" y="9.906" size="0.6096" layer="25"/>
 </element>
-<element name="Q1" library="semiconductor" package="TO252" value="IRFR9020A" x="25.654" y="61.595" smashed="yes">
-<attribute name="NAME" x="21.844" y="59.055" size="0.6096" layer="25" ratio="18" rot="R90"/>
+<element name="Q1" library="semiconductor" package="TO252" value="IRFR9020A" x="15.621" y="22.733" smashed="yes">
+<attribute name="NAME" x="11.811" y="20.193" size="0.6096" layer="25" ratio="18" rot="R90"/>
 </element>
-<element name="L2" library="0630CDMCCDS-4R7MC" package="0630CDMCCDS-4R7MC" value="2.2uH" x="7.239" y="29.718" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="7.239" y="29.718" size="1.778" layer="27" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/0630CDMCCDS-4R7MC/Sumida/view-part/?ref=eda" x="7.239" y="29.718" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" 4.7 µH Shielded Molded Inductor 6.3 A 33mOhm Max Nonstandard " x="7.239" y="29.718" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Sumida" x="7.239" y="29.718" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="0630CDMCCDS-4R7MC" x="7.239" y="29.718" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE" value="Nonstandard Sumida" x="7.239" y="29.718" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="7.239" y="29.718" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1647434&amp;manufacturer=Sumida&amp;part_name=0630CDMCCDS-4R7MC&amp;search_term=0630" x="7.239" y="29.718" size="1.778" layer="27" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/0630CDMCCDS-4R7MC/Sumida/view-part/?ref=snap" x="7.239" y="29.718" size="1.778" layer="27" display="off"/>
+<element name="L2" library="0630CDMCCDS-4R7MC" package="0630CDMCCDS-4R7MC" value="2.2uH" x="3.937" y="31.75" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="3.937" y="31.75" size="1.778" layer="27" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/0630CDMCCDS-4R7MC/Sumida/view-part/?ref=eda" x="3.937" y="31.75" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" 4.7 µH Shielded Molded Inductor 6.3 A 33mOhm Max Nonstandard " x="3.937" y="31.75" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Sumida" x="3.937" y="31.75" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="0630CDMCCDS-4R7MC" x="3.937" y="31.75" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="Nonstandard Sumida" x="3.937" y="31.75" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="3.937" y="31.75" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1647434&amp;manufacturer=Sumida&amp;part_name=0630CDMCCDS-4R7MC&amp;search_term=0630" x="3.937" y="31.75" size="1.778" layer="27" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/0630CDMCCDS-4R7MC/Sumida/view-part/?ref=snap" x="3.937" y="31.75" size="1.778" layer="27" display="off"/>
 </element>
-<element name="D1" library="SS54" package="DO-214AC" value="SS54" x="19.304" y="63.754" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="19.304" y="63.754" size="1.778" layer="27" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/SS54/MDD/view-part/?ref=eda" x="19.304" y="63.754" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" Diode Schottky 40 V 5A Surface Mount SMA " x="19.304" y="63.754" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="MDD" x="19.304" y="63.754" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="SS54" x="19.304" y="63.754" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="16.664" y="65.04" size="0.6096" layer="25" ratio="10"/>
-<attribute name="PACKAGE" value="None" x="19.304" y="63.754" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="19.304" y="63.754" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=12137997&amp;manufacturer=MDD&amp;part_name=SS54&amp;search_term=None" x="19.304" y="63.754" size="1.778" layer="27" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/SS54/MDD/view-part/?ref=snap" x="19.304" y="63.754" size="1.778" layer="27" display="off"/>
+<element name="D1" library="SS54" package="DO-214AC" value="SS54" x="3.429" y="28.194" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="3.429" y="28.194" size="1.778" layer="27" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/SS54/MDD/view-part/?ref=eda" x="3.429" y="28.194" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Diode Schottky 40 V 5A Surface Mount SMA " x="3.429" y="28.194" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="MDD" x="3.429" y="28.194" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="SS54" x="3.429" y="28.194" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="0.789" y="29.48" size="0.6096" layer="25" ratio="10"/>
+<attribute name="PACKAGE" value="None" x="3.429" y="28.194" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="3.429" y="28.194" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=12137997&amp;manufacturer=MDD&amp;part_name=SS54&amp;search_term=None" x="3.429" y="28.194" size="1.778" layer="27" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/SS54/MDD/view-part/?ref=snap" x="3.429" y="28.194" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C11" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC3216X135" package3d_urn="urn:adsk.eagle:package:16290893/2" value="22uF" x="11.811" y="61.214" smashed="yes">
-<attribute name="CATEGORY" value="Capacitor" x="13.081" y="61.214" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="13.081" y="61.214" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="13.081" y="61.214" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="11.938" y="60.9117" size="0.6096" layer="25" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="13.081" y="61.214" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="" x="13.081" y="61.214" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="13.081" y="61.214" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="" x="13.081" y="61.214" size="1.778" layer="27" display="off"/>
-<attribute name="SUB-CATEGORY" value="" x="13.081" y="61.214" size="1.778" layer="27" display="off"/>
-<attribute name="THERMALLOSS" value="" x="13.081" y="61.214" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="" x="13.081" y="61.214" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE_RATING" value="" x="13.081" y="61.214" size="1.778" layer="27" display="off"/>
+<element name="C11" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC3216X135" package3d_urn="urn:adsk.eagle:package:16290893/2" value="22uF" x="2.667" y="22.987" smashed="yes">
+<attribute name="CATEGORY" value="Capacitor" x="3.937" y="22.987" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="3.937" y="22.987" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="3.937" y="22.987" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="2.794" y="22.6847" size="0.6096" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="3.937" y="22.987" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="3.937" y="22.987" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="3.937" y="22.987" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="3.937" y="22.987" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="3.937" y="22.987" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="3.937" y="22.987" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="3.937" y="22.987" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_RATING" value="" x="3.937" y="22.987" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C12" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC3216X135" package3d_urn="urn:adsk.eagle:package:16290893/2" value="22uF" x="11.811" y="63.627" smashed="yes">
-<attribute name="CATEGORY" value="Capacitor" x="8.001" y="56.007" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="8.001" y="56.007" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="8.001" y="56.007" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="11.811" y="63.3247" size="0.6096" layer="25" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="8.001" y="56.007" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="" x="8.001" y="56.007" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="8.001" y="56.007" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="" x="8.001" y="56.007" size="1.778" layer="27" display="off"/>
-<attribute name="SUB-CATEGORY" value="" x="8.001" y="56.007" size="1.778" layer="27" display="off"/>
-<attribute name="THERMALLOSS" value="" x="8.001" y="56.007" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="" x="8.001" y="56.007" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE_RATING" value="" x="8.001" y="56.007" size="1.778" layer="27" display="off"/>
+<element name="C12" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC3216X135" package3d_urn="urn:adsk.eagle:package:16290893/2" value="22uF" x="2.667" y="25.4" smashed="yes">
+<attribute name="CATEGORY" value="Capacitor" x="-1.143" y="17.78" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="-1.143" y="17.78" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-1.143" y="17.78" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="2.667" y="25.0977" size="0.6096" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="-1.143" y="17.78" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="-1.143" y="17.78" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="-1.143" y="17.78" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="-1.143" y="17.78" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="-1.143" y="17.78" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="-1.143" y="17.78" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="-1.143" y="17.78" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_RATING" value="" x="-1.143" y="17.78" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C13" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC3216X135" package3d_urn="urn:adsk.eagle:package:16290893/2" value="22uF" x="11.811" y="58.801" smashed="yes">
-<attribute name="CATEGORY" value="Capacitor" x="13.081" y="51.181" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="13.081" y="51.181" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="13.081" y="51.181" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="11.811" y="58.4987" size="0.6096" layer="25" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="13.081" y="51.181" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="" x="13.081" y="51.181" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="13.081" y="51.181" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="" x="13.081" y="51.181" size="1.778" layer="27" display="off"/>
-<attribute name="SUB-CATEGORY" value="" x="13.081" y="51.181" size="1.778" layer="27" display="off"/>
-<attribute name="THERMALLOSS" value="" x="13.081" y="51.181" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="" x="13.081" y="51.181" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE_RATING" value="" x="13.081" y="51.181" size="1.778" layer="27" display="off"/>
+<element name="C13" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC3216X135" package3d_urn="urn:adsk.eagle:package:16290893/2" value="22uF" x="2.667" y="20.574" smashed="yes">
+<attribute name="CATEGORY" value="Capacitor" x="3.937" y="12.954" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="3.937" y="12.954" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="3.937" y="12.954" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="2.667" y="20.2717" size="0.6096" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="3.937" y="12.954" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="3.937" y="12.954" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="3.937" y="12.954" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="3.937" y="12.954" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="3.937" y="12.954" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="3.937" y="12.954" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="3.937" y="12.954" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_RATING" value="" x="3.937" y="12.954" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C14" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC3216X135" package3d_urn="urn:adsk.eagle:package:16290893/2" value="22uF" x="11.811" y="56.388" smashed="yes">
-<attribute name="CATEGORY" value="Capacitor" x="8.001" y="41.148" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="8.001" y="41.148" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="8.001" y="41.148" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="11.811" y="56.0857" size="0.6096" layer="25" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="8.001" y="41.148" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="" x="8.001" y="41.148" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="8.001" y="41.148" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="" x="8.001" y="41.148" size="1.778" layer="27" display="off"/>
-<attribute name="SUB-CATEGORY" value="" x="8.001" y="41.148" size="1.778" layer="27" display="off"/>
-<attribute name="THERMALLOSS" value="" x="8.001" y="41.148" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="" x="8.001" y="41.148" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE_RATING" value="" x="8.001" y="41.148" size="1.778" layer="27" display="off"/>
+<element name="C14" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC3216X135" package3d_urn="urn:adsk.eagle:package:16290893/2" value="22uF" x="2.667" y="18.161" smashed="yes">
+<attribute name="CATEGORY" value="Capacitor" x="-1.143" y="2.921" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="-1.143" y="2.921" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-1.143" y="2.921" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="2.667" y="17.8587" size="0.6096" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="-1.143" y="2.921" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="-1.143" y="2.921" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="-1.143" y="2.921" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="-1.143" y="2.921" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="-1.143" y="2.921" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="-1.143" y="2.921" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="-1.143" y="2.921" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_RATING" value="" x="-1.143" y="2.921" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R7" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k" x="8.509" y="16.891" smashed="yes">
-<attribute name="NAME" x="7.112" y="17.526" size="0.6096" layer="25"/>
+<element name="R7" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k" x="2.159" y="7.366" smashed="yes">
+<attribute name="NAME" x="0.762" y="8.001" size="0.6096" layer="25"/>
 </element>
-<element name="L3" library="74437368047" package="INDM110100X380N" value="2.2uH" x="-42.291" y="-20.066" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="-42.291" y="-20.066" size="0.6096" layer="27" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/74437368047/Wurth+Electronics+Inc./view-part/?ref=eda" x="-42.291" y="-20.066" size="0.6096" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" 4.7 µH Shielded Molded Inductor 7 A 15.5mOhm Max Nonstandard " x="-42.291" y="-20.066" size="0.6096" layer="27" display="off"/>
-<attribute name="MF" value="Wurth Electronics" x="-42.291" y="-20.066" size="0.6096" layer="27" display="off"/>
-<attribute name="MP" value="74437368047" x="-42.291" y="-20.066" size="0.6096" layer="27" display="off"/>
-<attribute name="NAME" x="-47.29186875" y="-14.81508125" size="1.27021875" layer="25"/>
-<attribute name="PACKAGE" value="Nonstandard Wurth Electronics" x="-42.291" y="-20.066" size="0.6096" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="-42.291" y="-20.066" size="0.6096" layer="27" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/74437368047/Wurth+Electronics+Inc./view-part/?ref=snap" x="-42.291" y="-20.066" size="0.6096" layer="27" display="off"/>
-<attribute name="VALUE" x="-48.291409375" y="-26.566440625" size="1.270090625" layer="27"/>
+<element name="L3" library="74437368047" package="INDM110100X380N" value="2.2uH" x="7.493" y="35.052" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="7.493" y="35.052" size="0.6096" layer="27" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/74437368047/Wurth+Electronics+Inc./view-part/?ref=eda" x="7.493" y="35.052" size="0.6096" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" 4.7 µH Shielded Molded Inductor 7 A 15.5mOhm Max Nonstandard " x="7.493" y="35.052" size="0.6096" layer="27" display="off"/>
+<attribute name="MF" value="Wurth Electronics" x="7.493" y="35.052" size="0.6096" layer="27" display="off"/>
+<attribute name="MP" value="74437368047" x="7.493" y="35.052" size="0.6096" layer="27" display="off"/>
+<attribute name="NAME" x="7.720484375" y="34.819375" size="0.6096" layer="25"/>
+<attribute name="PACKAGE" value="Nonstandard Wurth Electronics" x="7.493" y="35.052" size="0.6096" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="7.493" y="35.052" size="0.6096" layer="27" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/74437368047/Wurth+Electronics+Inc./view-part/?ref=snap" x="7.493" y="35.052" size="0.6096" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
@@ -2373,19 +2380,19 @@ design rules under a new name.</description>
 <contactref element="C8" pad="1"/>
 <contactref element="C9" pad="1"/>
 <contactref element="R5" pad="2"/>
-<wire x1="36.6246" y1="55.372" x2="46.1495" y2="59.69" width="0" layer="19" extent="1-1"/>
-<wire x1="36.6246" y1="52.959" x2="36.6246" y2="55.372" width="0" layer="19" extent="1-1"/>
-<wire x1="36.6246" y1="50.546" x2="36.6246" y2="52.959" width="0" layer="19" extent="1-1"/>
-<wire x1="36.6246" y1="48.133" x2="36.6246" y2="50.546" width="0" layer="19" extent="1-1"/>
-<wire x1="16.129" y1="20.377" x2="36.6246" y2="48.133" width="0" layer="19" extent="1-1"/>
-<wire x1="16.129" y1="15.437" x2="16.129" y2="20.377" width="0" layer="19" extent="1-1"/>
-<wire x1="14.465" y1="6.35" x2="16.129" y2="15.437" width="0" layer="19" extent="1-1"/>
-<wire x1="9.665" y1="6.35" x2="14.465" y2="6.35" width="0" layer="19" extent="1-1"/>
+<wire x1="6.915" y1="44.323" x2="17.272" y2="36.3705" width="0" layer="19" extent="1-1"/>
+<wire x1="1.975" y1="44.323" x2="6.915" y2="44.323" width="0" layer="19" extent="1-1"/>
+<wire x1="6.7796" y1="25.273" x2="17.272" y2="36.3705" width="0" layer="19" extent="1-1"/>
+<wire x1="6.7796" y1="22.86" x2="6.7796" y2="25.273" width="0" layer="19" extent="1-1"/>
+<wire x1="6.7796" y1="20.447" x2="6.7796" y2="22.86" width="0" layer="19" extent="1-1"/>
+<wire x1="6.7796" y1="18.034" x2="6.7796" y2="20.447" width="0" layer="19" extent="1-1"/>
+<wire x1="7.506" y1="6.223" x2="6.7796" y2="18.034" width="0" layer="19" extent="1-1"/>
+<wire x1="12.306" y1="6.223" x2="7.506" y2="6.223" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CC1">
 <contactref element="J1" pad="A5"/>
 <contactref element="R1" pad="1"/>
-<wire x1="9.359" y1="9.271" x2="10.815" y2="6.35" width="0" layer="19" extent="1-1"/>
+<wire x1="3.009" y1="1.651" x2="8.656" y2="6.223" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DP1">
 <contactref element="J1" pad="A6"/>
@@ -2399,7 +2406,7 @@ design rules under a new name.</description>
 <signal name="CC2">
 <contactref element="J1" pad="B5"/>
 <contactref element="R2" pad="2"/>
-<wire x1="9.359" y1="11.176" x2="13.815" y2="6.35" width="0" layer="19" extent="1-1"/>
+<wire x1="3.009" y1="3.556" x2="11.656" y2="6.223" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DN2">
 <contactref element="J1" pad="B7"/>
@@ -2439,45 +2446,45 @@ design rules under a new name.</description>
 <contactref element="C2" pad="2"/>
 <contactref element="C5" pad="2"/>
 <contactref element="R7" pad="1"/>
-<wire x1="43.4214" y1="49.657" x2="73.914" y2="61.214" width="0" layer="19" extent="1-1"/>
-<wire x1="39.5754" y1="50.546" x2="43.4214" y2="49.657" width="0" layer="19" extent="1-1"/>
-<wire x1="39.5754" y1="52.959" x2="39.5754" y2="50.546" width="0" layer="19" extent="1-1"/>
-<wire x1="39.5754" y1="55.372" x2="39.5754" y2="52.959" width="0" layer="19" extent="1-1"/>
-<wire x1="39.5754" y1="48.133" x2="39.5754" y2="50.546" width="0" layer="19" extent="1-1"/>
-<wire x1="25.654" y1="64.095" x2="39.5754" y2="55.372" width="0" layer="19" extent="1-1"/>
-<wire x1="24.472" y1="47.879" x2="25.654" y2="64.095" width="0" layer="19" extent="1-1"/>
-<wire x1="10.3356" y1="56.388" x2="24.472" y2="47.879" width="0" layer="19" extent="1-1"/>
-<wire x1="10.3356" y1="58.801" x2="10.3356" y2="56.388" width="0" layer="19" extent="1-1"/>
-<wire x1="10.3356" y1="61.214" x2="10.3356" y2="58.801" width="0" layer="19" extent="1-1"/>
-<wire x1="10.3356" y1="63.627" x2="10.3356" y2="61.214" width="0" layer="19" extent="1-1"/>
-<wire x1="14.575" y1="50.673" x2="10.3356" y2="58.801" width="0" layer="19" extent="1-1"/>
-<wire x1="18.669" y1="15.437" x2="39.5754" y2="48.133" width="0" layer="19" extent="1-1"/>
-<wire x1="15.0346" y1="12.954" x2="18.669" y2="15.437" width="0" layer="19" extent="1-1"/>
-<wire x1="15.2099" y1="9.652" x2="15.0346" y2="12.954" width="0" layer="19" extent="1-1"/>
-<wire x1="15.265" y1="6.35" x2="15.2099" y2="9.652" width="0" layer="19" extent="1-1"/>
-<wire x1="16.385" y1="5.71" x2="15.265" y2="6.35" width="0" layer="19" extent="1-1"/>
-<wire x1="11.6714" y1="12.446" x2="15.0346" y2="12.954" width="0" layer="19" extent="1-1"/>
-<wire x1="11.6714" y1="9.144" x2="11.6714" y2="12.446" width="0" layer="19" extent="1-1"/>
-<wire x1="8.865" y1="6.35" x2="11.6714" y2="9.144" width="0" layer="19" extent="1-1"/>
-<wire x1="7.745" y1="5.71" x2="8.865" y2="6.35" width="0" layer="19" extent="1-1"/>
-<wire x1="7.659" y1="9.271" x2="8.865" y2="6.35" width="0" layer="19" extent="1-1"/>
-<wire x1="7.659" y1="11.176" x2="7.659" y2="9.271" width="0" layer="19" extent="1-1"/>
-<wire x1="7.659" y1="13.081" x2="7.659" y2="11.176" width="0" layer="19" extent="1-1"/>
-<wire x1="7.659" y1="16.891" x2="7.659" y2="13.081" width="0" layer="19" extent="1-1"/>
-<wire x1="16.385" y1="1.53" x2="16.385" y2="5.71" width="0" layer="19" extent="1-1"/>
-<wire x1="7.745" y1="1.53" x2="7.745" y2="5.71" width="0" layer="19" extent="1-1"/>
+<wire x1="1.975" y1="41.783" x2="7.493" y2="48.514" width="0" layer="19" extent="1-1"/>
+<wire x1="1.1916" y1="25.4" x2="1.975" y2="41.783" width="0" layer="19" extent="1-1"/>
+<wire x1="1.1916" y1="22.987" x2="1.1916" y2="25.4" width="0" layer="19" extent="1-1"/>
+<wire x1="1.1916" y1="20.574" x2="1.1916" y2="22.987" width="0" layer="19" extent="1-1"/>
+<wire x1="1.1916" y1="18.161" x2="1.1916" y2="20.574" width="0" layer="19" extent="1-1"/>
+<wire x1="1.3669" y1="14.478" x2="1.1916" y2="18.161" width="0" layer="19" extent="1-1"/>
+<wire x1="3.009" y1="9.271" x2="1.3669" y2="14.478" width="0" layer="19" extent="1-1"/>
+<wire x1="1.309" y1="7.366" x2="3.009" y2="9.271" width="0" layer="19" extent="1-1"/>
+<wire x1="1.309" y1="5.461" x2="1.309" y2="7.366" width="0" layer="19" extent="1-1"/>
+<wire x1="1.309" y1="3.556" x2="1.309" y2="5.461" width="0" layer="19" extent="1-1"/>
+<wire x1="1.309" y1="1.651" x2="1.309" y2="3.556" width="0" layer="19" extent="1-1"/>
+<wire x1="5.586" y1="5.583" x2="1.309" y2="5.461" width="0" layer="19" extent="1-1"/>
+<wire x1="6.706" y1="6.223" x2="5.586" y2="5.583" width="0" layer="19" extent="1-1"/>
+<wire x1="5.586" y1="1.403" x2="5.586" y2="5.583" width="0" layer="19" extent="1-1"/>
+<wire x1="13.106" y1="6.223" x2="6.706" y2="6.223" width="0" layer="19" extent="1-1"/>
+<wire x1="14.226" y1="5.583" x2="13.106" y2="6.223" width="0" layer="19" extent="1-1"/>
+<wire x1="17.0054" y1="4.953" x2="14.226" y2="5.583" width="0" layer="19" extent="1-1"/>
+<wire x1="17.0054" y1="8.255" x2="17.0054" y2="4.953" width="0" layer="19" extent="1-1"/>
+<wire x1="17.0054" y1="1.651" x2="17.0054" y2="4.953" width="0" layer="19" extent="1-1"/>
+<wire x1="14.226" y1="1.403" x2="17.0054" y2="1.651" width="0" layer="19" extent="1-1"/>
+<wire x1="15.9236" y1="14.605" x2="17.0054" y2="8.255" width="0" layer="19" extent="1-1"/>
+<wire x1="9.7304" y1="18.034" x2="15.9236" y2="14.605" width="0" layer="19" extent="1-1"/>
+<wire x1="9.7304" y1="20.447" x2="9.7304" y2="18.034" width="0" layer="19" extent="1-1"/>
+<wire x1="9.7304" y1="22.86" x2="9.7304" y2="20.447" width="0" layer="19" extent="1-1"/>
+<wire x1="9.7304" y1="25.273" x2="9.7304" y2="22.86" width="0" layer="19" extent="1-1"/>
+<wire x1="14.194" y1="23.622" x2="9.7304" y2="22.86" width="0" layer="19" extent="1-1"/>
+<wire x1="15.621" y1="25.233" x2="14.194" y2="23.622" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ISET">
 <contactref element="U1" pad="1"/>
 <contactref element="C1" pad="2"/>
 <contactref element="R4" pad="2"/>
-<wire x1="9.359" y1="13.081" x2="13.2206" y2="12.446" width="0" layer="19" extent="1-1"/>
-<wire x1="15.2099" y1="10.602" x2="9.359" y2="13.081" width="0" layer="19" extent="1-1"/>
+<wire x1="3.009" y1="5.461" x2="18.5546" y2="4.953" width="0" layer="19" extent="1-1"/>
+<wire x1="1.3669" y1="15.428" x2="3.009" y2="5.461" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BIAS">
 <contactref element="U1" pad="3"/>
 <contactref element="C3" pad="2"/>
-<wire x1="15.2099" y1="8.702" x2="13.2206" y2="14.097" width="0" layer="19" extent="1-1"/>
+<wire x1="1.3669" y1="13.528" x2="18.5546" y2="6.604" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BATC">
 <contactref element="U1" pad="6"/>
@@ -2487,12 +2494,12 @@ design rules under a new name.</description>
 <contactref element="C4" pad="2"/>
 <contactref element="C5" pad="1"/>
 <contactref element="U2" pad="2"/>
-<wire x1="9.652" y1="67.719" x2="71.374" y2="61.214" width="0" layer="19" extent="1-1"/>
-<wire x1="17.8101" y1="10.602" x2="9.652" y2="67.719" width="0" layer="19" extent="1-1"/>
-<wire x1="13.2206" y1="10.795" x2="17.8101" y2="10.602" width="0" layer="19" extent="1-1"/>
-<wire x1="13.2206" y1="9.144" x2="13.2206" y2="10.795" width="0" layer="19" extent="1-1"/>
-<wire x1="13.196" y1="15.367" x2="13.2206" y2="10.795" width="0" layer="19" extent="1-1"/>
-<wire x1="13.789" y1="25.017" x2="13.196" y2="15.367" width="0" layer="19" extent="1-1"/>
+<wire x1="9.553" y1="42.418" x2="4.953" y2="48.514" width="0" layer="19" extent="1-1"/>
+<wire x1="3.9671" y1="15.428" x2="9.553" y2="42.418" width="0" layer="19" extent="1-1"/>
+<wire x1="13.154" y1="12.825" x2="3.9671" y2="15.428" width="0" layer="19" extent="1-1"/>
+<wire x1="18.53" y1="10.922" x2="13.154" y2="12.825" width="0" layer="19" extent="1-1"/>
+<wire x1="18.5546" y1="3.302" x2="18.53" y2="10.922" width="0" layer="19" extent="1-1"/>
+<wire x1="18.5546" y1="1.651" x2="18.5546" y2="3.302" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BATP">
 <contactref element="C11" pad="2"/>
@@ -2505,59 +2512,59 @@ design rules under a new name.</description>
 <contactref element="C4" pad="1"/>
 <contactref element="U1" pad="5"/>
 <contactref element="D1" pad="C"/>
-<wire x1="17.254" y1="63.754" x2="68.834" y2="61.214" width="0" layer="19" extent="1-1"/>
-<wire x1="13.2864" y1="63.627" x2="17.254" y2="63.754" width="0" layer="19" extent="1-1"/>
-<wire x1="13.2864" y1="61.214" x2="13.2864" y2="63.627" width="0" layer="19" extent="1-1"/>
-<wire x1="13.2864" y1="58.801" x2="13.2864" y2="61.214" width="0" layer="19" extent="1-1"/>
-<wire x1="13.2864" y1="56.388" x2="13.2864" y2="58.801" width="0" layer="19" extent="1-1"/>
-<wire x1="17.399" y1="15.437" x2="13.2864" y2="56.388" width="0" layer="19" extent="1-1"/>
-<wire x1="17.9854" y1="12.954" x2="17.399" y2="15.437" width="0" layer="19" extent="1-1"/>
-<wire x1="17.8101" y1="9.652" x2="17.9854" y2="12.954" width="0" layer="19" extent="1-1"/>
-<wire x1="11.6714" y1="10.795" x2="17.8101" y2="9.652" width="0" layer="19" extent="1-1"/>
+<wire x1="1.975" y1="43.053" x2="2.413" y2="48.514" width="0" layer="19" extent="1-1"/>
+<wire x1="1.379" y1="28.194" x2="1.975" y2="43.053" width="0" layer="19" extent="1-1"/>
+<wire x1="4.1424" y1="25.4" x2="1.379" y2="28.194" width="0" layer="19" extent="1-1"/>
+<wire x1="4.1424" y1="22.987" x2="4.1424" y2="25.4" width="0" layer="19" extent="1-1"/>
+<wire x1="4.1424" y1="20.574" x2="4.1424" y2="22.987" width="0" layer="19" extent="1-1"/>
+<wire x1="4.1424" y1="18.161" x2="4.1424" y2="20.574" width="0" layer="19" extent="1-1"/>
+<wire x1="3.9671" y1="14.478" x2="4.1424" y2="18.161" width="0" layer="19" extent="1-1"/>
+<wire x1="18.8744" y1="14.605" x2="3.9671" y2="14.478" width="0" layer="19" extent="1-1"/>
+<wire x1="17.0054" y1="3.302" x2="18.8744" y2="14.605" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SW">
 <contactref element="U1" pad="4"/>
 <contactref element="R3" pad="1"/>
 <contactref element="C3" pad="1"/>
 <contactref element="L1" pad="P$2"/>
-<wire x1="7.739" y1="25.017" x2="11.6714" y2="14.097" width="0" layer="19" extent="1-1"/>
-<wire x1="17.8101" y1="8.702" x2="11.6714" y2="14.097" width="0" layer="19" extent="1-1"/>
-<wire x1="7.659" y1="14.986" x2="17.8101" y2="8.702" width="0" layer="19" extent="1-1"/>
+<wire x1="7.104" y1="12.825" x2="17.0054" y2="6.604" width="0" layer="19" extent="1-1"/>
+<wire x1="3.9671" y1="13.528" x2="17.0054" y2="6.604" width="0" layer="19" extent="1-1"/>
+<wire x1="1.309" y1="11.176" x2="3.9671" y2="13.528" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="R3" pad="2"/>
 <contactref element="LED1" pad="A"/>
 <contactref element="U2" pad="1"/>
-<wire x1="11.696" y1="15.367" x2="7.112" y2="67.719" width="0" layer="19" extent="1-1"/>
-<wire x1="9.359" y1="14.986" x2="11.696" y2="15.367" width="0" layer="19" extent="1-1"/>
+<wire x1="3.009" y1="11.176" x2="9.553" y2="44.958" width="0" layer="19" extent="1-1"/>
+<wire x1="17.03" y1="10.922" x2="3.009" y2="11.176" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IS_BALANCING_C_3V3_IN">
 <contactref element="U2" pad="4"/>
 <contactref element="TP1" pad="TP"/>
-<wire x1="7.112" y1="76.299" x2="76.073" y2="54.483" width="0" layer="19" extent="1-1"/>
+<wire x1="14.605" y1="48.387" x2="18.133" y2="44.958" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IS_BALANCING_E_GPIO">
 <contactref element="U2" pad="3"/>
 <contactref element="TP2" pad="TP"/>
 <contactref element="R7" pad="2"/>
-<wire x1="9.652" y1="76.299" x2="72.771" y2="55.118" width="0" layer="19" extent="1-1"/>
-<wire x1="9.359" y1="16.891" x2="9.652" y2="76.299" width="0" layer="19" extent="1-1"/>
+<wire x1="18.133" y1="42.418" x2="18.161" y2="48.387" width="0" layer="19" extent="1-1"/>
+<wire x1="3.009" y1="7.366" x2="18.133" y2="42.418" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CSN">
 <contactref element="U3" pad="8"/>
 <contactref element="R5" pad="1"/>
 <contactref element="L2" pad="P$1"/>
 <contactref element="L3" pad="2"/>
-<wire x1="13.789" y1="33.018" x2="40.2105" y2="59.69" width="0" layer="19" extent="1-1"/>
-<wire x1="14.859" y1="20.377" x2="13.789" y2="33.018" width="0" layer="19" extent="1-1"/>
-<wire x1="-37.541" y1="-20.066" x2="14.859" y2="20.377" width="0" layer="19" extent="1-1"/>
+<wire x1="10.487" y1="35.05" x2="6.915" y2="45.593" width="0" layer="19" extent="1-1"/>
+<wire x1="12.243" y1="35.052" x2="10.487" y2="35.05" width="0" layer="19" extent="1-1"/>
+<wire x1="17.272" y1="30.4315" x2="12.243" y2="35.052" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LDRV">
 <contactref element="U3" pad="5"/>
 <contactref element="R6" pad="1"/>
 <contactref element="Q1" pad="1"/>
-<wire x1="22.772" y1="47.879" x2="23.374" y2="56.795" width="0" layer="19" extent="1-1"/>
-<wire x1="18.669" y1="20.377" x2="22.772" y2="47.879" width="0" layer="19" extent="1-1"/>
+<wire x1="13.341" y1="17.933" x2="6.915" y2="41.783" width="0" layer="19" extent="1-1"/>
+<wire x1="1.309" y1="9.271" x2="13.341" y2="17.933" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="HDRV">
 <contactref element="U3" pad="6"/>
@@ -2566,27 +2573,27 @@ design rules under a new name.</description>
 <contactref element="U3" pad="1"/>
 <contactref element="U4" pad="3"/>
 <contactref element="U4" pad="1"/>
-<wire x1="14.575" y1="49.723" x2="14.575" y2="51.623" width="0" layer="19" extent="1-1"/>
-<wire x1="14.859" y1="15.437" x2="14.575" y2="49.723" width="0" layer="19" extent="1-1"/>
+<wire x1="14.194" y1="24.572" x2="1.975" y2="45.593" width="0" layer="19" extent="1-1"/>
+<wire x1="14.194" y1="22.672" x2="14.194" y2="24.572" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BYP">
 <contactref element="U4" pad="4"/>
 <contactref element="C10" pad="2"/>
-<wire x1="17.175" y1="49.723" x2="44.9706" y2="49.657" width="0" layer="19" extent="1-1"/>
+<wire x1="16.794" y1="22.672" x2="18.5546" y2="8.255" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IS_CHARGING_3V3_OUT">
 <contactref element="U4" pad="5"/>
 <contactref element="TP3" pad="TP"/>
-<wire x1="17.175" y1="51.623" x2="33.02" y2="64.77" width="0" layer="19" extent="1-1"/>
+<wire x1="16.794" y1="24.572" x2="11.049" y2="48.387" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D">
 <contactref element="Q1" pad="2"/>
 <contactref element="L2" pad="P$2"/>
 <contactref element="D1" pad="A"/>
 <contactref element="L3" pad="1"/>
-<wire x1="27.934" y1="56.795" x2="21.354" y2="63.754" width="0" layer="19" extent="1-1"/>
-<wire x1="7.739" y1="33.018" x2="27.934" y2="56.795" width="0" layer="19" extent="1-1"/>
-<wire x1="-47.041" y1="-20.066" x2="7.739" y2="33.018" width="0" layer="19" extent="1-1"/>
+<wire x1="17.901" y1="17.933" x2="5.479" y2="28.194" width="0" layer="19" extent="1-1"/>
+<wire x1="4.437" y1="35.05" x2="17.901" y2="17.933" width="0" layer="19" extent="1-1"/>
+<wire x1="2.743" y1="35.052" x2="4.437" y2="35.05" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -2599,6 +2606,10 @@ design rules under a new name.</description>
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
