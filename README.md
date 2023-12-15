@@ -27,6 +27,10 @@ The parts list so far as a list, so they can be ordered from aliexpress:
 - MIC5219-3.3YM5-TR (sot-23-5)
 - 0603 10nF
 
+## Schematic
+![image](https://github.com/DoganM95/2S-Charge-Balance-Pcb/assets/38842553/f06351ed-6704-4dbe-b4db-51173ba3fcc0)
+
+
 ## Key Takeaways
 - The status group of the `ETA3000` consisting of a red led and a 1k resistor use `BatC` as one pole and `SW` as the other. Thus it does not have a real `GND` but current flows with `BatC` acting as Vcc and `SW` acting as `GND` for the led
 - The said red status led connections could also be exploited to power an optocoupler, so the `GND` stays independent for this part of the circuit and status becomes measurable using e.g. an arduino
