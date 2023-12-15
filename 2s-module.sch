@@ -9402,6 +9402,69 @@ TS-003</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="74437368047">
+<packages>
+<package name="INDM110100X380N">
+<wire x1="-5" y1="5" x2="5" y2="5" width="0.127" layer="21"/>
+<wire x1="5" y1="5" x2="5" y2="-5" width="0.127" layer="21"/>
+<wire x1="5" y1="-5" x2="-5" y2="-5" width="0.127" layer="21"/>
+<wire x1="-5" y1="-5" x2="-5" y2="5" width="0.127" layer="21"/>
+<wire x1="-7.05" y1="5.15" x2="-7.05" y2="-5.15" width="0.127" layer="39"/>
+<wire x1="7" y1="-5.25" x2="7" y2="-5.15" width="0.127" layer="39"/>
+<wire x1="7" y1="-5.15" x2="7" y2="5.25" width="0.127" layer="39"/>
+<wire x1="-7" y1="5.25" x2="7" y2="5.25" width="0.127" layer="39"/>
+<wire x1="-7" y1="-5.25" x2="7" y2="-5.25" width="0.127" layer="39"/>
+<text x="-5.00086875" y="5.25091875" size="1.27021875" layer="25">&gt;NAME</text>
+<text x="-6.000409375" y="-6.500440625" size="1.270090625" layer="27">&gt;VALUE</text>
+<smd name="1" x="-4.75" y="0" dx="4.1" dy="3.5" layer="1"/>
+<smd name="2" x="4.75" y="0" dx="4.1" dy="3.5" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="74437368047">
+<wire x1="0" y1="5.08" x2="1.27" y2="3.81" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="3.81" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="-2.54" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="-2.54" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="-5.08" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="90"/>
+<text x="2.544459375" y="5.088909375" size="1.78111875" layer="95">&gt;NAME</text>
+<text x="2.54118125" y="-5.082359375" size="1.77883125" layer="96">&gt;VALUE</text>
+<pin name="1" x="0" y="7.62" visible="pad" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="2" x="0" y="-7.62" visible="pad" length="short" direction="pas" swaplevel="1" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="74437368047" prefix="L">
+<description>LHMI Inductor 1040 4.7uH 7.0A 15.5mOhm &lt;a href="https://pricing.snapeda.com/parts/74437368047/Wurth%20Electronics/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="74437368047" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDM110100X380N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/74437368047/Wurth+Electronics+Inc./view-part/?ref=eda"/>
+<attribute name="DESCRIPTION" value=" 4.7 µH Shielded Molded Inductor 7 A 15.5mOhm Max Nonstandard "/>
+<attribute name="MF" value="Wurth Electronics"/>
+<attribute name="MP" value="74437368047"/>
+<attribute name="PACKAGE" value="Nonstandard Wurth Electronics"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/74437368047/Wurth+Electronics+Inc./view-part/?ref=snap"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -9428,7 +9491,7 @@ TS-003</description>
 <part name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="25k"/>
 <part name="C2" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-1206(3216-METRIC)" package3d_urn="urn:adsk.eagle:package:16290893/2" technology="_" value="22uF"/>
 <part name="C3" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/2" technology="_" value="10nF"/>
-<part name="L1" library="0630CDMCCDS-4R7MC" deviceset="0630CDMCCDS-4R7MC" device=""/>
+<part name="L1" library="0630CDMCCDS-4R7MC" deviceset="0630CDMCCDS-4R7MC" device="" value=""/>
 <part name="C4" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/2" technology="_" value="10uF"/>
 <part name="C5" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/2" technology="_" value="10uF"/>
 <part name="U2" library="PC817XI" deviceset="PC817XI" device=""/>
@@ -9445,13 +9508,14 @@ TS-003</description>
 <part name="TP3" library="BeagleBone_Blue_R3" library_urn="urn:adsk.eagle:library:5828899" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:5829429/1"/>
 <part name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="Q1" library="semiconductor" deviceset="IRFR9020" device="A"/>
-<part name="L2" library="0630CDMCCDS-4R7MC" deviceset="0630CDMCCDS-4R7MC" device=""/>
+<part name="L2" library="0630CDMCCDS-4R7MC" deviceset="0630CDMCCDS-4R7MC" device="" value="2.2uH"/>
 <part name="D1" library="SS54" deviceset="SS54" device=""/>
 <part name="C11" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-1206(3216-METRIC)" package3d_urn="urn:adsk.eagle:package:16290893/2" technology="_" value="22uF"/>
 <part name="C12" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-1206(3216-METRIC)" package3d_urn="urn:adsk.eagle:package:16290893/2" technology="_" value="22uF"/>
 <part name="C13" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-1206(3216-METRIC)" package3d_urn="urn:adsk.eagle:package:16290893/2" technology="_" value="22uF"/>
 <part name="C14" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-1206(3216-METRIC)" package3d_urn="urn:adsk.eagle:package:16290893/2" technology="_" value="22uF"/>
 <part name="R7" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
+<part name="L3" library="74437368047" deviceset="74437368047" device="" value="2.2uH"/>
 </parts>
 <sheets>
 <sheet>
@@ -9459,7 +9523,9 @@ TS-003</description>
 <text x="165.1" y="45.72" size="1.778" layer="95" grouprefs="ACTIVE_BALANCER_ISOLATED">ETA3000</text>
 <text x="236.22" y="45.72" size="1.778" layer="96">2.2uH</text>
 <text x="33.02" y="-38.1" size="1.778" layer="95" grouprefs="CHARGER">CN3302</text>
-<text x="20.32" y="-5.08" size="1.778" layer="96" grouprefs="CHARGER">2.2uH</text>
+<text x="27.94" y="-5.08" size="1.778" layer="96" grouprefs="CHARGER">2.2uH</text>
+<text x="231.14" y="45.72" size="1.778" layer="95">L1</text>
+<text x="15.24" y="-5.08" size="1.778" layer="95">L2</text>
 </plain>
 <instances>
 <instance part="J1" gate="G$1" x="15.24" y="76.2" smashed="yes">
@@ -9589,6 +9655,10 @@ TS-003</description>
 <instance part="R7" gate="G$1" x="271.78" y="86.36" smashed="yes" rot="R90">
 <attribute name="NAME" x="270.2814" y="85.09" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="275.082" y="85.09" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="L3" gate="G$1" x="22.86" y="5.08" smashed="yes" rot="R90">
+<attribute name="NAME" x="15.231090625" y="7.624459375" size="1.78111875" layer="95"/>
+<attribute name="VALUE" x="27.942359375" y="7.62118125" size="1.77883125" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -9781,6 +9851,10 @@ TS-003</description>
 <wire x1="35.56" y1="0" x2="63.5" y2="0" width="0.1524" layer="91" grouprefs="CHARGER"/>
 <wire x1="63.5" y1="0" x2="63.5" y2="-12.7" width="0.1524" layer="91" grouprefs="CHARGER"/>
 <junction x="63.5" y="-12.7" grouprefs="CHARGER"/>
+<pinref part="L3" gate="G$1" pin="2"/>
+<wire x1="30.48" y1="5.08" x2="35.56" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="5.08" x2="35.56" y2="0" width="0.1524" layer="91"/>
+<junction x="35.56" y="0"/>
 </segment>
 </net>
 <net name="STAT" class="0">
@@ -9859,6 +9933,10 @@ TS-003</description>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="-5.08" y1="0" x2="-5.08" y2="10.16" width="0.1524" layer="91" grouprefs="CHARGER"/>
 <junction x="-5.08" y="0" grouprefs="CHARGER"/>
+<pinref part="L3" gate="G$1" pin="1"/>
+<wire x1="15.24" y1="5.08" x2="10.16" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="0" width="0.1524" layer="91"/>
+<junction x="10.16" y="0"/>
 </segment>
 </net>
 <net name="BATP" class="0">
