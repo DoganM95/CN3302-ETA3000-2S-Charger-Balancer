@@ -4,8 +4,6 @@ A dual cell charger (5V in, 8.4V 4A out) combined with active balancing (1.3A)
 
 ## BOM
 
-The parts list so far as a list, so they can be ordered from aliexpress:
-
 ### Balancer (2 Amps)
 
 - PC817 (sop-4)
