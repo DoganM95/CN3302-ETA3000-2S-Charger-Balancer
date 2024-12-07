@@ -1,6 +1,6 @@
 # Intro
 
-A dual cell charger (3-6V in, 8.4V 4A out) combined with active balancing (1.3A). Highly experimental and untested.
+A dual cell charger (3-6V in, 8.4V 4A out) combined with active balancing (1.3A). Highly experimental and untested.  
 Releases starting with v1 or higher can be used and are tested.
 
 # PCB
