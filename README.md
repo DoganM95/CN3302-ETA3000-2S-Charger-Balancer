@@ -19,27 +19,37 @@ A dual cell charger (5V in, 8.4V 4A out) combined with active balancing (1.3A). 
 
 ## BOM
 
-### Balancer (2 Amps)
-
-- PC817 (sop-4)
-- 0603 1kOhm
-- 0603 25kOhm
-- 0603 10nF
-- 0603 Led red
-- 1206 22uF
-- 0630 (6.6x6.6x3mm) 2.2uH
-- ETA3000 (SOT-23-6)
-
-### Charger (4 Amps)
-
-- 1206 22uF
-- 2512 15mOhm
-- SS54 (SMA)
-- KND3203b (TO-252-2)
-- 0603 10kOhm
-- CN3302 (sop-8)
-- MIC5219-3.3YM5-TR (sot-23-5)
-- 0603 10nF
+Schema: Component Symbol, size, value, side-notes
+- C1: 0603 10nF
+- C10: 0603 10nF
+- C11: 1206 22uF
+- C12: 1206 22uF
+- C13: 1206 22uF
+- C14: 1206 22uF
+- C2: 1206 22uF
+- C3: 0603 10nF
+- C4: 0603 10nF
+- C5: 0603 10nF
+- C6: 1206 22uF
+- C7: 1206 22uF
+- C8: 1206 22uF
+- C9: 1206 22uF
+- D1: sma SS54 (Schottky)
+- L1: 0630 (6.6x6.6x3mm) 2.2 uH
+- L2 / L3: any 2.2 uH that fits there by size
+- LED1: 0603 led (any color, check R3)
+- Q1: KND3203b (TO-252-2)
+- R1: 0603 5.1 kOhm
+- R2: 0603 5.1 kOhm
+- R3: 0603 var Ohm (choose one that fits your LED1)
+- R4: 0603 25 kOhm
+- R5: 2512 0.015 Ohm
+- R6: 0603 10 kOhm
+- R7: 0603 10 kOhm
+- U1: sot23-6 ETA3000
+- U2: smt PC817X
+- U3: sop8 CN3302
+- U4: sot23-5 MIC5219 3.3v
 
 ## Schematic
 
