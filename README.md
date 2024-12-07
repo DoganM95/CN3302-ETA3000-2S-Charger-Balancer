@@ -1,10 +1,8 @@
 # Intro
 
-A dual cell charger (5V in, 8.4V 4A out) combined with active balancing (1.3A). Highly experimental and untested.
+A dual cell charger (3-6V in, 8.4V 4A out) combined with active balancing (1.3A). Highly experimental and untested.
 
 # PCB
-
-
 
 <table>
   <tr>
@@ -21,11 +19,6 @@ A dual cell charger (5V in, 8.4V 4A out) combined with active balancing (1.3A). 
 
 Schema: Component Symbol, size, value, side-notes
 - C1: 0603 10nF
-- C10: 0603 10nF
-- C11: 1206 22uF
-- C12: 1206 22uF
-- C13: 1206 22uF
-- C14: 1206 22uF
 - C2: 1206 22uF
 - C3: 0603 10nF
 - C4: 0603 10nF
@@ -34,6 +27,11 @@ Schema: Component Symbol, size, value, side-notes
 - C7: 1206 22uF
 - C8: 1206 22uF
 - C9: 1206 22uF
+- C10: 0603 10nF
+- C11: 1206 22uF
+- C12: 1206 22uF
+- C13: 1206 22uF
+- C14: 1206 22uF
 - D1: sma SS54 (Schottky)
 - L1: 0630 (6.6x6.6x3mm) 2.2 uH
 - L2 / L3: any 2.2 uH that fits there by size
