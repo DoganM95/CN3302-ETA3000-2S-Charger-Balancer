@@ -2,6 +2,21 @@
 
 A dual cell charger (5V in, 8.4V 4A out) combined with active balancing (1.3A). Highly experimental and untested.
 
+# PCB
+
+
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/DoganM95/CN3302-ETA3000-2S-Charger-Balancer/blob/master/assets/top.png?raw=true" alt="PCB Top View"/>
+    </td>
+    <td>
+      <img src="https://github.com/DoganM95/CN3302-ETA3000-2S-Charger-Balancer/blob/master/assets/bottom.png?raw=true" alt="PCB Bottom View"/>
+    </td>
+  </tr>
+</table>
+
 ## BOM
 
 ### Balancer (2 Amps)
