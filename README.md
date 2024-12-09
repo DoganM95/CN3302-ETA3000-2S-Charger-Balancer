@@ -25,37 +25,48 @@ Highly experimental and untested. Releases starting with v1 or higher can be use
 
 ## BOM
 
-Schema: Component Symbol, size, value, side-notes
-- C1: 0603 10nF
-- C2: 1206 22uF
-- C3: 0603 10nF
-- C4: 0603 10nF
-- C5: 0603 10nF
-- C6: 1206 22uF
-- C7: 1206 22uF
-- C8: 1206 22uF
-- C9: 1206 22uF
-- C10: 0603 10nF
-- C11: 1206 22uF
-- C12: 1206 22uF
-- C13: 1206 22uF
-- C14: 1206 22uF
-- D1: sma SS54 (Schottky)
-- L1: 0630 (6.6x6.6x3mm) 2.2 uH
-- L2 / L3: any 2.2 uH that fits there by size
-- LED1: 0603 led (any color, check R3)
-- Q1: KND3203b (TO-252-2)
-- R1: 0603 5.1 kOhm
-- R2: 0603 5.1 kOhm
-- R3: 0603 var Ohm (choose one that fits your LED1)
-- R4: 0603 25 kOhm
-- R5: 2512 0.015 Ohm
-- R6: 0603 10 kOhm
-- R7: 0603 10 kOhm
-- U1: sot23-6 ETA3000
-- U2: smt PC817X
-- U3: sop8 CN3302
-- U4: sot23-5 MIC5219 3.3v
+<table>
+  <thead>
+    <tr>
+      <th>Component Symbol</th>
+      <th>Size</th>
+      <th>Value</th>
+      <th>Side Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>C1</td><td>0603</td><td>10nF</td><td></td></tr>
+    <tr><td>C2</td><td>1206</td><td>22uF</td><td></td></tr>
+    <tr><td>C3</td><td>0603</td><td>10nF</td><td></td></tr>
+    <tr><td>C4</td><td>0603</td><td>10nF</td><td></td></tr>
+    <tr><td>C5</td><td>0603</td><td>10nF</td><td></td></tr>
+    <tr><td>C6</td><td>1206</td><td>22uF</td><td></td></tr>
+    <tr><td>C7</td><td>1206</td><td>22uF</td><td></td></tr>
+    <tr><td>C8</td><td>1206</td><td>22uF</td><td></td></tr>
+    <tr><td>C9</td><td>1206</td><td>22uF</td><td></td></tr>
+    <tr><td>C10</td><td>0603</td><td>10nF</td><td></td></tr>
+    <tr><td>C11</td><td>1206</td><td>22uF</td><td></td></tr>
+    <tr><td>C12</td><td>1206</td><td>22uF</td><td></td></tr>
+    <tr><td>C13</td><td>1206</td><td>22uF</td><td></td></tr>
+    <tr><td>C14</td><td>1206</td><td>22uF</td><td></td></tr>
+    <tr><td>D1</td><td>sma</td><td>SS54 (Schottky)</td><td></td></tr>
+    <tr><td>L1</td><td>0630 (6.6x6.6x3mm)</td><td>2.2 uH</td><td></td></tr>
+    <tr><td>L2 / L3</td><td>any</td><td>2.2 uH</td><td>any that fits there by size</td></tr>
+    <tr><td>LED1</td><td>0603</td><td>led</td><td>any color, check R3</td></tr>
+    <tr><td>Q1</td><td>TO-252-2</td><td>KND3203b</td><td></td></tr>
+    <tr><td>R1</td><td>0603</td><td>5.1 kOhm</td><td></td></tr>
+    <tr><td>R2</td><td>0603</td><td>5.1 kOhm</td><td></td></tr>
+    <tr><td>R3</td><td>0603</td><td>var Ohm</td><td>choose one that fits your LED1</td></tr>
+    <tr><td>R4</td><td>0603</td><td>25 kOhm</td><td></td></tr>
+    <tr><td>R5</td><td>2512</td><td>0.015 Ohm</td><td></td></tr>
+    <tr><td>R6</td><td>0603</td><td>10 kOhm</td><td></td></tr>
+    <tr><td>R7</td><td>0603</td><td>10 kOhm</td><td></td></tr>
+    <tr><td>U1</td><td>sot23-6</td><td>ETA3000</td><td></td></tr>
+    <tr><td>U2</td><td>smt</td><td>PC817X</td><td></td></tr>
+    <tr><td>U3</td><td>sop8</td><td>CN3302</td><td></td></tr>
+    <tr><td>U4</td><td>sot23-5</td><td>MIC5219 3.3v</td><td></td></tr>
+  </tbody>
+</table>
 
 ## Schematic
 
