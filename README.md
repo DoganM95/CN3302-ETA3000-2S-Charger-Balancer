@@ -8,7 +8,9 @@ Having these combined will in theory give the perfect 2S bms, so that batteries 
 
 Any buyable bms i have tested so far fails to keep both batteries at the same voltage, so that one is e.g. 4.6v and the other 3.8v, resulting in 8.4v total but leading to damage/death of the overcharged cell, hence this proect to solve the issue and have a reliable, hackable solution.  
 
-Highly experimental and untested. Releases starting with v1 or higher can be used and are tested.
+Still in concept phase, highly experimental and untested. Even the pcb traces are not wide enough to support the supplied current and would probably delaminate or catch fire.  
+
+Releases starting with v1 or higher can be used and are tested.
 
 # PCB
 
