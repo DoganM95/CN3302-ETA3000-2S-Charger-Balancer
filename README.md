@@ -80,9 +80,13 @@ So all parts of those modules can be desoldered using a hot-plate and solder3d o
 
 ### By Datasheets
 
+Follows the recommendations and schematics of the datasheets
+
 ![image](https://github.com/DoganM95/2S-Charge-Balance-Pcb/assets/38842553/f06351ed-6704-4dbe-b4db-51173ba3fcc0)
 
 ### By reverse engineered chinese modules
+
+Follows the reverse engineered chinese pcb modules, so they are merged into this pcb to minimize the need of additional components (just move parts over).
 
 Todo
 
