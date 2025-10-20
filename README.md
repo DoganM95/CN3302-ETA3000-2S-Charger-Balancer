@@ -1,6 +1,6 @@
 # Intro
 
-A dual cell charger (3-6V in, 8.4V 4A out) combined with active balancing (1.3A).   
+A dual cell charger (3-6V 4A in, 8.4V ~3A out) combined with active balancing (1.3A).   
 - The charging part makes sure to load the battery pack to 8.4v
 - The balancing part makes sure to keep both batteries at the same voltage always, by charging the lower one using the higher one (active balancing)
 
