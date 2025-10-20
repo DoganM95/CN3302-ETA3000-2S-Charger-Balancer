@@ -29,7 +29,8 @@ Releases starting with v1 or higher can be used and are tested.
 
 Most parts a salvaged from commercially available modules, which are dirt-cheap on aliexpress:
 - [Charging module (2S, 4A](https://a.aliexpress.com/_EuYAQFK)
-- [Balancing module (active)]
+- [Balancing module (2S, 1.3A, active)](https://s.click.aliexpress.com/e/_EuIdQJ6)
+
 So all parts of those modules can be desoldered using a hot-plate and solder3d on this project's pcb.
 
 <table>
